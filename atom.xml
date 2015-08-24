@@ -77,11 +77,31 @@
     <link href="http://yoursite.com/2015/08/24/change/"/>
     <id>http://yoursite.com/2015/08/24/change/</id>
     <published>2015-08-24T06:51:17.000Z</published>
-    <updated>2015-08-24T06:51:17.659Z</updated>
-    <content type="html"></content>
+    <updated>2015-08-24T13:56:20.742Z</updated>
+    <content type="html"><![CDATA[<!--toc-->
+<p>#this is the first blog of YC</p>
+<p>##subtitle one<br>biological experiment</p>
+<p>##subtitle two<br>computational analysis</p>
+<p>##subtitle three<br>data mining</p>
+<p>#end</p>
+<blockquote>
+<p>keep coding<br>keep reading<br>keep questioning</p>
+</blockquote>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<!--toc-->
+<p>#this is the first blog of YC</p>
+<p>##subtitle one<br>biological experiment</p>
+<p>##subtitle two<br>computational analysis</]]>
     </summary>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+      <category term="first" scheme="http://yoursite.com/tags/first/"/>
+    
+      <category term="learn" scheme="http://yoursite.com/tags/learn/"/>
+    
+      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
     
   </entry>
   
