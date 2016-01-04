@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-08-30T14:25:29.012Z</updated>
+  <updated>2015-08-27T13:14:10.031Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,23 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2015/08/30/back_network/"/>
-    <id>http://yoursite.com/2015/08/30/back_network/</id>
-    <published>2015-08-30T14:25:29.012Z</published>
-    <updated>2015-08-30T14:25:29.012Z</updated>
-    <content type="html"><![CDATA[<p>config interface &#x2018;loopback&#x2019;<br>    option ifname &#x2018;lo&#x2019;<br>    option proto &#x2018;static&#x2019;<br>    option ipaddr &#x2018;127.0.0.1&#x2019;<br>    option netmask &#x2018;255.0.0.0&#x2019;</p>
-<p>config interface &#x2018;lan&#x2019;<br>    option type &#x2018;bridge&#x2019;<br>    option proto &#x2018;static&#x2019;<br>    option netmask &#x2018;255.255.255.0&#x2019;<br>    option ip6assign &#x2018;60&#x2019;<br>    option ipaddr &#x2018;192.168.1.11&#x2019;<br>    option gateway &#x2018;192.168.1.1&#x2019;<br>    option _orig_ifname &#x2018;eth0&#x2019;<br>    option _orig_bridge &#x2018;true&#x2019;<br>    option ifname &#x2018;eth0 eth1&#x2019;<br>    option dns &#x2018;114.114.114.114 10.8.8.8&#x2019;</p>
-<p>config globals &#x2018;globals&#x2019;<br>    option ula_prefix &#x2018;fd3b:670b:712d::/48&#x2019;</p>
-<p>config interface &#x2018;wan&#x2019;<br>    option proto &#x2018;static&#x2019;<br>    option ifname &#x2018;eth1&#x2019;<br>    option ipaddr &#x2018;202.116.90.89&#x2019;<br>    option gateway &#x2018;202.116.90.1&#x2019;<br>    option dns &#x2018;114.114.114.114 10.8.8.8&#x2019;<br>    option macaddr &#x2018;38:EA:A7:6E:ED:C3&#x2019;<br>    option netmask &#x2018;255.255.255.0&#x2019;</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>config interface &#x2018;loopback&#x2019;<br>    option ifname &#x2018;lo&#x2019;<br>    option proto &#x2018;static&#x2019;<br>    optio]]>
-    </summary>
-    
-  </entry>
   
   <entry>
     <title></title>
