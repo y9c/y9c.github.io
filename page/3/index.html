@@ -172,6 +172,67 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-compair-sync-and-async" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/23/compair-sync-and-async/" class="article-date">
+  	<time datetime="2015-12-23T07:21:01.000Z" itemprop="datePublished">2015-12-23</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/23/compair-sync-and-async/">比较同步编程和异步编程的区别</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>Sync in C</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;time.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">time_t</span> the_time;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">1</span>; i &lt;= <span class="number">10</span>; i++) &#123;</span><br><span class="line">        the_time = time((<span class="keyword">time_t</span> *)<span class="number">0</span>);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"The time is %ld\n"</span>, the_time);</span><br><span class="line">        sleep(<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>The time is 1396492137<br>The time is 1396492139<br>The time is 1396492141<br>The time is 1396492143<br>The time is 1396492145<br>The time is 1396492147<br>The time is 1396492149<br>The time is 1396492151<br>The time is 1396492153<br>The time is 1396492155</p>
+<h1 id="Async_in_javascript"><a href="#Async_in_javascript" class="headerlink" title="Async in javascript"></a>Async in javascript</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>);</span><br><span class="line">        setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="number">2000</span>); <span class="comment">//睡眠2秒，然后再进行一下次for循环打印</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">test();</span><br></pre></td></tr></table></figure>
+<p>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-express-node-begin" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -780,66 +841,6 @@ TypeError: path is required!
     <div class="article-info article-info-index">
       
       
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-new-them" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/08/24/new-them/" class="article-date">
-  	<time datetime="2015-08-24T07:40:03.000Z" itemprop="datePublished">2015-08-24</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/24/new-them/">new them</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>[toc]<br><!-- toc --></p>
-<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><blockquote>
-<p>hello</p>
-</blockquote>
-<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">100</span>):</span><br><span class="line">	<span class="keyword">print</span> i</span><br></pre></td></tr></table></figure>
-<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plot(<span class="number">1</span>:<span class="number">100</span>)</span><br><span class="line">a &lt;- read.table(<span class="string">"table.txt"</span>)</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
       
 
       

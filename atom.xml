@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-04T14:39:15.519Z</updated>
+  <updated>2016-07-04T14:44:25.251Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hello2]]></title>
+    <link href="http://yoursite.com/2016/07/04/hello2/"/>
+    <id>http://yoursite.com/2016/07/04/hello2/</id>
+    <published>2016-07-04T14:44:03.000Z</published>
+    <updated>2016-07-04T14:44:25.251Z</updated>
+    <content type="html"><![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[top100 Journal for pubmed advance search]]></title>
@@ -30,31 +43,6 @@
     </summary>
     
       <category term="paper" scheme="http://yoursite.com/tags/paper/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[mutaion calling process]]></title>
-    <link href="http://yoursite.com/2016/07/04/how_to_call_mutaion/"/>
-    <id>http://yoursite.com/2016/07/04/how_to_call_mutaion/</id>
-    <published>2016-07-04T14:39:15.515Z</published>
-    <updated>2016-07-04T14:39:15.515Z</updated>
-    <content type="html"><![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
-<li>bwa</li>
-<li>samtools view</li>
-<li>samtools sort</li>
-<li>samtools mpileup</li>
-<li>perl pileup2base</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
-<li>bwa</li>
-<li>samtools view</li>
-<li>samtools]]>
-    </summary>
-    
-      <category term="bioinfo" scheme="http://yoursite.com/tags/bioinfo/"/>
     
   </entry>
   
@@ -86,6 +74,31 @@
       <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
     
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[mutaion calling process]]></title>
+    <link href="http://yoursite.com/2016/07/04/how_to_call_mutaion/"/>
+    <id>http://yoursite.com/2016/07/04/how_to_call_mutaion/</id>
+    <published>2016-07-04T14:39:15.515Z</published>
+    <updated>2016-07-04T14:39:15.515Z</updated>
+    <content type="html"><![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools sort</li>
+<li>samtools mpileup</li>
+<li>perl pileup2base</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools]]>
+    </summary>
+    
+      <category term="bioinfo" scheme="http://yoursite.com/tags/bioinfo/"/>
     
   </entry>
   
@@ -597,33 +610,6 @@
       <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
       <category term="web" scheme="http://yoursite.com/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[比较同步编程和异步编程的区别]]></title>
-    <link href="http://yoursite.com/2015/12/23/compair-sync-and-async/"/>
-    <id>http://yoursite.com/2015/12/23/compair-sync-and-async/</id>
-    <published>2015-12-23T07:21:01.000Z</published>
-    <updated>2016-07-04T14:39:15.515Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>Sync in C</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;time.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">time_t</span> the_time;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">1</span>; i &lt;= <span class="number">10</span>; i++) &#123;</span><br><span class="line">        the_time = time((<span class="keyword">time_t</span> *)<span class="number">0</span>);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"The time is %ld\n"</span>, the_time);</span><br><span class="line">        sleep(<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>The time is 1396492137<br>The time is 1396492139<br>The time is 1396492141<br>The time is 1396492143<br>The time is 1396492145<br>The time is 1396492147<br>The time is 1396492149<br>The time is 1396492151<br>The time is 1396492153<br>The time is 1396492155</p>
-<h1 id="Async_in_javascript"><a href="#Async_in_javascript" class="headerlink" title="Async in javascript"></a>Async in javascript</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>);</span><br><span class="line">        setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="number">2000</span>); <span class="comment">//睡眠2秒，然后再进行一下次for循环打印</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">test();</span><br></pre></td></tr></table></figure>
-<p>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<blockquote>
-<p>Sync in C</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><s]]>
-    </summary>
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
     
   </entry>
   
