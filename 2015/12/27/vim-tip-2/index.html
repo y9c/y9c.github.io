@@ -3,17 +3,138 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: tech | change</title>
+  <title>随手记录点vim技巧(二) | change</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="change">
-<meta property="og:url" content="http://yoursite.com/tags/tech/index.html">
+  <meta name="description" content="Q: 删除到/插入到/移动到 行首怎么搞?
+
+
+有N种方法
+
+
+
+
+命令
+按键
+
+
+
+
+移动到行首
+(  ^ 0
+
+
+移动到行尾
+)  $
+
+
+插入到行首
+I
+
+
+插入到行尾
+A
+
+
+删除到行首
+d(
+
+
+删除到行尾
+d) D
+
+
+
+
+最规范的还是行用() 段用{}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="随手记录点vim技巧(二)">
+<meta property="og:url" content="http://yoursite.com/2015/12/27/vim-tip-2/index.html">
 <meta property="og:site_name" content="change">
-<meta property="og:description">
+<meta property="og:description" content="Q: 删除到/插入到/移动到 行首怎么搞?
+
+
+有N种方法
+
+
+
+
+命令
+按键
+
+
+
+
+移动到行首
+(  ^ 0
+
+
+移动到行尾
+)  $
+
+
+插入到行首
+I
+
+
+插入到行尾
+A
+
+
+删除到行首
+d(
+
+
+删除到行尾
+d) D
+
+
+
+
+最规范的还是行用() 段用{}">
+<meta property="og:updated_time" content="2015-12-29T14:23:43.363Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="change">
-<meta name="twitter:description">
+<meta name="twitter:title" content="随手记录点vim技巧(二)">
+<meta name="twitter:description" content="Q: 删除到/插入到/移动到 行首怎么搞?
+
+
+有N种方法
+
+
+
+
+命令
+按键
+
+
+
+
+移动到行首
+(  ^ 0
+
+
+移动到行尾
+)  $
+
+
+插入到行首
+I
+
+
+插入到行尾
+A
+
+
+删除到行首
+d(
+
+
+删除到行尾
+d) D
+
+
+
+
+最规范的还是行用() 段用{}">
   
     <link rel="alternative" href="/atom.xml" title="change" type="application/atom+xml">
   
@@ -170,208 +291,119 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-vim-tip-2" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2015/12/27/vim-tip-2/" class="article-date">
+  	<time datetime="2015-12-27T15:41:23.000Z" itemprop="datePublished">2015-12-27</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      随手记录点vim技巧(二)
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/compair-sync-and-async/" class="archive-article-date">
-  	<time datetime="2015-12-23T07:21:01.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/compair-sync-and-async/">比较同步编程和异步编程的区别</a>
-    </h1>
-  
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>Q: 删除到/插入到/移动到 行首怎么搞?</p>
+</blockquote>
+<ul>
+<li>有N种方法</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th style="text-align:center">按键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>移动到行首</td>
+<td style="text-align:center"><code>(</code>  <code>^</code> <code>0</code></td>
+</tr>
+<tr>
+<td>移动到行尾</td>
+<td style="text-align:center"><code>)</code>  <code>$</code></td>
+</tr>
+<tr>
+<td>插入到行首</td>
+<td style="text-align:center"><code>I</code></td>
+</tr>
+<tr>
+<td>插入到行尾</td>
+<td style="text-align:center"><code>A</code></td>
+</tr>
+<tr>
+<td>删除到行首</td>
+<td style="text-align:center"><code>d(</code></td>
+</tr>
+<tr>
+<td>删除到行尾</td>
+<td style="text-align:center"><code>d)</code> <code>D</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>最规范的还是行用() 段用{}</li>
+</ul>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/12/28/flow-cytometry-lmd2fcs/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Beckman流式细胞仪数据lmd格式转fcs格式
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/12/27/vim-tip-1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">随手记录点vim技巧(一)</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/express-node-begin/" class="archive-article-date">
-  	<time datetime="2015-12-23T06:42:59.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/express-node-begin/">node.js学习笔记(三)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/22/learn-nodejs-note-2/" class="archive-article-date">
-  	<time datetime="2015-12-21T16:09:42.000Z" itemprop="datePublished">Dec 22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/22/learn-nodejs-note-2/">node.js学习笔记(二)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-nodejs-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-nodejs-note/">node.js学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-javascript-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-javascript-note/">javascript学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/20/install-nodejs5/" class="archive-article-date">
-  	<time datetime="2015-12-20T08:21:23.000Z" itemprop="datePublished">Dec 20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/20/install-nodejs5/">ubuntu安装nodejs5</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 </div>
       <footer id="footer">
@@ -398,9 +430,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}

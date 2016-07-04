@@ -3,17 +3,56 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: tech | change</title>
+  <title>convolution 和 cross-correlation的区别 | change</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="change">
-<meta property="og:url" content="http://yoursite.com/tags/tech/index.html">
+  <meta name="description" content="计算函数:
+卷积(convolution)
+
+互相关(cross-correlation)
+
+
+数学解释:
+cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation
+convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.
+
+
+现实意义:…
+代码实现:matlab code12345678910%mat">
+<meta property="og:type" content="article">
+<meta property="og:title" content="convolution 和 cross-correlation的区别">
+<meta property="og:url" content="http://yoursite.com/2015/12/20/convolution_and_cross-correlation/index.html">
 <meta property="og:site_name" content="change">
-<meta property="og:description">
+<meta property="og:description" content="计算函数:
+卷积(convolution)
+
+互相关(cross-correlation)
+
+
+数学解释:
+cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation
+convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.
+
+
+现实意义:…
+代码实现:matlab code12345678910%mat">
+<meta property="og:image" content="http://yoursite.com/images/convolution_func.png">
+<meta property="og:image" content="http://yoursite.com/images/cross-correlation_func.png">
+<meta property="og:updated_time" content="2015-12-20T05:13:47.080Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="change">
-<meta name="twitter:description">
+<meta name="twitter:title" content="convolution 和 cross-correlation的区别">
+<meta name="twitter:description" content="计算函数:
+卷积(convolution)
+
+互相关(cross-correlation)
+
+
+数学解释:
+cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation
+convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.
+
+
+现实意义:…
+代码实现:matlab code12345678910%mat">
   
     <link rel="alternative" href="/atom.xml" title="change" type="application/atom+xml">
   
@@ -170,208 +209,89 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-convolution_and_cross-correlation" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2015/12/20/convolution_and_cross-correlation/" class="article-date">
+  	<time datetime="2015-12-20T05:13:47.088Z" itemprop="datePublished">2015-12-20</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      convolution 和 cross-correlation的区别
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/math/">math</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/compair-sync-and-async/" class="archive-article-date">
-  	<time datetime="2015-12-23T07:21:01.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/compair-sync-and-async/">比较同步编程和异步编程的区别</a>
-    </h1>
-  
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="u8BA1_u7B97_u51FD_u6570_3A"><a href="#u8BA1_u7B97_u51FD_u6570_3A" class="headerlink" title="计算函数:"></a>计算函数:</h1><ul>
+<li><p>卷积(convolution)<br><img src="/images/convolution_func.png" alt="卷积函数"></p>
+</li>
+<li><p>互相关(cross-correlation)<br><img src="/images/cross-correlation_func.png" alt="互相关函数"></p>
+</li>
+</ul>
+<h1 id="u6570_u5B66_u89E3_u91CA_3A"><a href="#u6570_u5B66_u89E3_u91CA_3A" class="headerlink" title="数学解释:"></a>数学解释:</h1><ul>
+<li>cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation</li>
+<li>convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.</li>
+</ul>
+<hr>
+<h1 id="u73B0_u5B9E_u610F_u4E49_3A"><a href="#u73B0_u5B9E_u610F_u4E49_3A" class="headerlink" title="现实意义:"></a>现实意义:</h1><p>…</p>
+<h1 id="u4EE3_u7801_u5B9E_u73B0_3A"><a href="#u4EE3_u7801_u5B9E_u73B0_3A" class="headerlink" title="代码实现:"></a>代码实现:</h1><h2 id="matlab_code"><a href="#matlab_code" class="headerlink" title="matlab code"></a>matlab code</h2><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">%matlab</span></span><br><span class="line">a = <span class="matrix">[<span class="number">1</span> <span class="number">5</span> <span class="number">3</span> -<span class="number">4</span> <span class="number">7</span> -<span class="number">2</span>]</span></span><br><span class="line">b = <span class="matrix">[<span class="number">2</span> <span class="number">3</span> <span class="number">5</span> <span class="number">2</span> -<span class="number">3</span> -<span class="number">9</span>]</span></span><br><span class="line"><span class="comment">%cross-correlation</span></span><br><span class="line"><span class="matrix">[corr_seq lags]</span> = xcorr(a,b)</span><br><span class="line">plot(lags,corr_seq)</span><br><span class="line"><span class="comment">%autocorrelation</span></span><br><span class="line">xcorr(a)</span><br><span class="line"><span class="comment">%convolution</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/12/20/install-nodejs5/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          ubuntu安装nodejs5
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/12/20/top100_journal_for_pubmed/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">top100 Journal for pubmed advance search</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/express-node-begin/" class="archive-article-date">
-  	<time datetime="2015-12-23T06:42:59.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/express-node-begin/">node.js学习笔记(三)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/22/learn-nodejs-note-2/" class="archive-article-date">
-  	<time datetime="2015-12-21T16:09:42.000Z" itemprop="datePublished">Dec 22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/22/learn-nodejs-note-2/">node.js学习笔记(二)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-nodejs-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-nodejs-note/">node.js学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-javascript-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-javascript-note/">javascript学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/20/install-nodejs5/" class="archive-article-date">
-  	<time datetime="2015-12-20T08:21:23.000Z" itemprop="datePublished">Dec 20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/20/install-nodejs5/">ubuntu安装nodejs5</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 </div>
       <footer id="footer">
@@ -398,9 +318,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}

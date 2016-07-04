@@ -3,17 +3,24 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: tech | change</title>
+  <title>比较同步编程和异步编程的区别 | change</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="change">
-<meta property="og:url" content="http://yoursite.com/tags/tech/index.html">
+  <meta name="description" content="Sync in C
+
+1234567891011121314#include &amp;lt;time.h&amp;gt;#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;unistd.h&amp;gt;int main()&amp;#123;    int i;    time_t the_time;    for(i = 1; i &amp;lt;= 10; i++) &amp;#123;        the_ti">
+<meta property="og:type" content="article">
+<meta property="og:title" content="比较同步编程和异步编程的区别">
+<meta property="og:url" content="http://yoursite.com/2015/12/23/compair-sync-and-async/index.html">
 <meta property="og:site_name" content="change">
-<meta property="og:description">
+<meta property="og:description" content="Sync in C
+
+1234567891011121314#include &amp;lt;time.h&amp;gt;#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;unistd.h&amp;gt;int main()&amp;#123;    int i;    time_t the_time;    for(i = 1; i &amp;lt;= 10; i++) &amp;#123;        the_ti">
+<meta property="og:updated_time" content="2015-12-23T07:31:08.763Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="change">
-<meta name="twitter:description">
+<meta name="twitter:title" content="比较同步编程和异步编程的区别">
+<meta name="twitter:description" content="Sync in C
+
+1234567891011121314#include &amp;lt;time.h&amp;gt;#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;unistd.h&amp;gt;int main()&amp;#123;    int i;    time_t the_time;    for(i = 1; i &amp;lt;= 10; i++) &amp;#123;        the_ti">
   
     <link rel="alternative" href="/atom.xml" title="change" type="application/atom+xml">
   
@@ -170,208 +177,83 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-compair-sync-and-async" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/compair-sync-and-async/" class="archive-article-date">
-  	<time datetime="2015-12-23T07:21:01.000Z" itemprop="datePublished">Dec 23</time>
+    <div class="article-meta">
+      <a href="/2015/12/23/compair-sync-and-async/" class="article-date">
+  	<time datetime="2015-12-23T07:21:01.000Z" itemprop="datePublished">2015-12-23</time>
 </a>
-        </div>
-    	 
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/compair-sync-and-async/">比较同步编程和异步编程的区别</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      比较同步编程和异步编程的区别
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
 	</div>
 
-          
+        
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>Sync in C</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;time.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">include</span> <span class="string">&lt;unistd.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">time_t</span> the_time;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">1</span>; i &lt;= <span class="number">10</span>; i++) &#123;</span><br><span class="line">        the_time = time((<span class="keyword">time_t</span> *)<span class="number">0</span>);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"The time is %ld\n"</span>, the_time);</span><br><span class="line">        sleep(<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">exit</span>(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>The time is 1396492137<br>The time is 1396492139<br>The time is 1396492141<br>The time is 1396492143<br>The time is 1396492145<br>The time is 1396492147<br>The time is 1396492149<br>The time is 1396492151<br>The time is 1396492153<br>The time is 1396492155</p>
+<h1 id="Async_in_javascript"><a href="#Async_in_javascript" class="headerlink" title="Async in javascript"></a>Async in javascript</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>);</span><br><span class="line">        setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="number">2000</span>); <span class="comment">//睡眠2秒，然后再进行一下次for循环打印</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">test();</span><br></pre></td></tr></table></figure>
+<p>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)<br>Wed Dec 23 2015 15:27:15 GMT+0800 (CST)</p>
+
+      
+    </div>
+    
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/12/25/web-engines/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          各种乱七八糟的“引擎”是干嘛的
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/12/23/express-node-begin/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">node.js学习笔记(三)</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/23/express-node-begin/" class="archive-article-date">
-  	<time datetime="2015-12-23T06:42:59.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/express-node-begin/">node.js学习笔记(三)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/22/learn-nodejs-note-2/" class="archive-article-date">
-  	<time datetime="2015-12-21T16:09:42.000Z" itemprop="datePublished">Dec 22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/22/learn-nodejs-note-2/">node.js学习笔记(二)</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-nodejs-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-nodejs-note/">node.js学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/21/learn-javascript-note/" class="archive-article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">Dec 21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/21/learn-javascript-note/">javascript学习笔记(一)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/12/20/install-nodejs5/" class="archive-article-date">
-  	<time datetime="2015-12-20T08:21:23.000Z" itemprop="datePublished">Dec 20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/20/install-nodejs5/">ubuntu安装nodejs5</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 </div>
       <footer id="footer">
@@ -398,9 +280,9 @@
 		mathjax: true,
 		animate: true,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false
 	}
