@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-23T13:02:46.387Z</updated>
+  <updated>2016-07-04T14:39:15.519Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,86 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[top100 Journal for pubmed advance search]]></title>
+    <link href="http://yoursite.com/2016/07/04/top100_journal_for_pubmed/"/>
+    <id>http://yoursite.com/2016/07/04/top100_journal_for_pubmed/</id>
+    <published>2016-07-04T14:39:15.519Z</published>
+    <updated>2016-07-04T14:39:15.519Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((“CA-A CANCER JOURNAL FOR CLINICIANS”[Journal] OR “CHEMICAL REVIEWS”[Journal]) OR “REVIEWS OF MODERN PHYSICS”[Journal]) OR “NATURE”[Journal]) OR “Annual Review of Immunology”[Journal]) OR “NATURE REVIEWS GENETICS”[Journal]) OR “LANCET”[Journal]) OR “NATURE BIOTECHNOLOGY”[Journal]) OR “NATURE REVIEWS CANCER”[Journal]) OR “NATURE REVIEWS DRUG DISCOVERY”[Journal]) OR “NATURE REVIEWS MOLECULAR CELL BIOLOGY”[Journal]) OR “NATURE MATERIALS”[Journal]) OR “NATURE REVIEWS IMMUNOLOGY”[Journal]) OR “Nature Nanotechnology”[Journal]) OR “CELL”[Journal]) OR “SCIENCE”[Journal]) OR “NATURE REVIEWS NEUROSCIENCE”[Journal]) OR “CHEMICAL SOCIETY REVIEWS”[Journal]) OR “Nature Photonics”[Journal]) OR “NATURE GENETICS”[Journal]) OR “PHYSIOLOGICAL REVIEWS”[Journal]) OR “NATURE MEDICINE”[Journal]) OR “PROGRESS IN POLYMER SCIENCE”[Journal]) OR “Annual Review of Biochemistry”[Journal]) OR “NATURE METHODS”[Journal]) OR “PROGRESS IN MATERIALS SCIENCE”[Journal]) OR “NATURE IMMUNOLOGY”[Journal]) OR “SURFACE SCIENCE REPORTS”[Journal]) OR “ACCOUNTS OF CHEMICAL RESEARCH”[Journal]) OR “Annual Review of Astronomy and Astrophysics”[Journal]) OR “CANCER CELL”[Journal]) OR “NATURE REVIEWS MICROBIOLOGY”[Journal]) OR “Nature Chemistry”[Journal]) OR “Annual Review of Neuroscience”[Journal]) OR “Cell Stem Cell”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “Nature Physics”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Cell and Developmental Biology”[Journal]) OR “NATURE CELL BIOLOGY”[Journal]) OR “IMMUNITY”[Journal]) OR “ENDOCRINE REVIEWS”[Journal]) OR “Annual Review of Plant Biology”[Journal]) OR “PHARMACOLOGICAL REVIEWS”[Journal]) OR “Annual Review of Pharmacology and Toxicology”[Journal]) OR “Nano Today”[Journal]) OR “Annual Review of Genetics”[Journal]) OR “ADVANCES IN PHYSICS”[Journal]) OR “PROGRESS IN ENERGY AND COMBUSTION SCIENCE”[Journal]) OR “Cell Metabolism”[Journal]) OR “Annual Review of Marine Science”[Journal]) OR “ALDRICHIMICA ACTA”[Journal]) OR “ANNALS OF INTERNAL MEDICINE”[Journal]) OR “CLINICAL MICROBIOLOGY REVIEWS”[Journal]) OR “NEURON”[Journal]) OR “Cancer Discovery”[Journal]) OR “Nature Reviews Clinical Oncology”[Journal]) OR “Annual Review of Physical Chemistry”[Journal]) OR “Annual Review of Materials Research”[Journal]) OR “Energy &amp; Environmental Science”[Journal]) OR “Annual Review of Medicine”[Journal]) OR “TRENDS IN ECOLOGY &amp; EVOLUTION”[Journal]) OR “JOURNAL OF THE AMERICAN COLLEGE OF CARDIOLOGY”[Journal]) OR “Nature Climate Change”[Journal]) OR “Nature Climate Change”[Journal]) OR “MOLECULAR PSYCHIATRY”[Journal]) OR “NATURE NEUROSCIENCE”[Journal]) OR “CIRCULATION”[Journal]) OR “EUROPEAN HEART JOURNAL”[Journal]) OR “Annual Review of Physiology”[Journal]) OR “MOLECULAR CELL”[Journal]) OR “Science Translational Medicine”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “Advanced Energy Materials”[Journal]) OR “MOLECULAR BIOLOGY AND EVOLUTION”[Journal]) OR “Nature Reviews Neurology”[Journal]) OR “Molecular Systems Biology”[Journal]) OR “PLOS MEDICINE”[Journal]) OR “GASTROENTEROLOGY”[Journal]) AND gene network[Title/Abstract]</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((“CA-A CANCER JOURNAL FOR CLINICIANS”[Journa]]>
+    </summary>
+    
+      <category term="paper" scheme="http://yoursite.com/tags/paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[mutaion calling process]]></title>
+    <link href="http://yoursite.com/2016/07/04/how_to_call_mutaion/"/>
+    <id>http://yoursite.com/2016/07/04/how_to_call_mutaion/</id>
+    <published>2016-07-04T14:39:15.515Z</published>
+    <updated>2016-07-04T14:39:15.515Z</updated>
+    <content type="html"><![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools sort</li>
+<li>samtools mpileup</li>
+<li>perl pileup2base</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools]]>
+    </summary>
+    
+      <category term="bioinfo" scheme="http://yoursite.com/tags/bioinfo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[convolution 和 cross-correlation的区别]]></title>
+    <link href="http://yoursite.com/2016/07/04/convolution_and_cross-correlation/"/>
+    <id>http://yoursite.com/2016/07/04/convolution_and_cross-correlation/</id>
+    <published>2016-07-04T14:39:15.515Z</published>
+    <updated>2016-07-04T14:39:15.515Z</updated>
+    <content type="html"><![CDATA[<h1 id="u8BA1_u7B97_u51FD_u6570_3A"><a href="#u8BA1_u7B97_u51FD_u6570_3A" class="headerlink" title="计算函数:"></a>计算函数:</h1><ul>
+<li><p>卷积(convolution)<br><img src="/images/convolution_func.png" alt="卷积函数"></p>
+</li>
+<li><p>互相关(cross-correlation)<br><img src="/images/cross-correlation_func.png" alt="互相关函数"></p>
+</li>
+</ul>
+<h1 id="u6570_u5B66_u89E3_u91CA_3A"><a href="#u6570_u5B66_u89E3_u91CA_3A" class="headerlink" title="数学解释:"></a>数学解释:</h1><ul>
+<li>cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation</li>
+<li>convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.</li>
+</ul>
+<hr>
+<h1 id="u73B0_u5B9E_u610F_u4E49_3A"><a href="#u73B0_u5B9E_u610F_u4E49_3A" class="headerlink" title="现实意义:"></a>现实意义:</h1><p>…</p>
+<h1 id="u4EE3_u7801_u5B9E_u73B0_3A"><a href="#u4EE3_u7801_u5B9E_u73B0_3A" class="headerlink" title="代码实现:"></a>代码实现:</h1><h2 id="matlab_code"><a href="#matlab_code" class="headerlink" title="matlab code"></a>matlab code</h2><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">%matlab</span></span><br><span class="line">a = <span class="matrix">[<span class="number">1</span> <span class="number">5</span> <span class="number">3</span> -<span class="number">4</span> <span class="number">7</span> -<span class="number">2</span>]</span></span><br><span class="line">b = <span class="matrix">[<span class="number">2</span> <span class="number">3</span> <span class="number">5</span> <span class="number">2</span> -<span class="number">3</span> -<span class="number">9</span>]</span></span><br><span class="line"><span class="comment">%cross-correlation</span></span><br><span class="line"><span class="matrix">[corr_seq lags]</span> = xcorr(a,b)</span><br><span class="line">plot(lags,corr_seq)</span><br><span class="line"><span class="comment">%autocorrelation</span></span><br><span class="line">xcorr(a)</span><br><span class="line"><span class="comment">%convolution</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="u8BA1_u7B97_u51FD_u6570_3A"><a href="#u8BA1_u7B97_u51FD_u6570_3A" class="headerlink" title="计算函数:"></a>计算函数:</h1><ul>
+<li><p>卷积(conv]]>
+    </summary>
+    
+      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
+    
+      <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[google的dnsmasq地址和IP]]></title>
     <link href="http://yoursite.com/2016/02/23/google-dnsmasq/"/>
     <id>http://yoursite.com/2016/02/23/google-dnsmasq/</id>
     <published>2016-02-23T13:13:25.000Z</published>
-    <updated>2016-02-23T13:02:46.387Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>google dnsmasq address</p>
 </blockquote>
@@ -43,7 +118,7 @@
     <link href="http://yoursite.com/2016/02/20/transform-two-level-df-into-two-dimension-df-in-R/"/>
     <id>http://yoursite.com/2016/02/20/transform-two-level-df-into-two-dimension-df-in-R/</id>
     <published>2016-02-20T07:44:00.000Z</published>
-    <updated>2016-02-20T07:55:41.784Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>用R将两列索引的表格转化为,二维的行列的矩阵</p>
 </blockquote>
@@ -135,7 +210,7 @@
     <link href="http://yoursite.com/2016/01/18/happy-new-year-monkey/"/>
     <id>http://yoursite.com/2016/01/18/happy-new-year-monkey/</id>
     <published>2016-01-18T01:54:19.000Z</published>
-    <updated>2016-02-14T06:17:31.519Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<p><img src="https://cornellchem.wikispaces.com/file/view/evolution.jpg/567817861/evolution.jpg" alt="猴子"></p>
 ]]></content>
     <summary type="html">
@@ -154,7 +229,7 @@
     <link href="http://yoursite.com/2016/01/02/markup-language/"/>
     <id>http://yoursite.com/2016/01/02/markup-language/</id>
     <published>2016-01-02T06:33:50.000Z</published>
-    <updated>2016-01-02T06:38:05.689Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="external">markdown</a></li>
 <li><a href="https://en.wikipedia.org/wiki/AsciiDoc" target="_blank" rel="external">AsciiDoc</a></li>
@@ -177,7 +252,7 @@
     <link href="http://yoursite.com/2016/01/01/surfingkeys-vimium-like-setting/"/>
     <id>http://yoursite.com/2016/01/01/surfingkeys-vimium-like-setting/</id>
     <published>2015-12-31T17:14:32.000Z</published>
-    <updated>2016-01-09T11:37:51.049Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//help</span></span><br><span class="line">mapkey(<span class="string">'?'</span>, <span class="string">'Show usage'</span>, <span class="string">'Normal.showUsage()'</span>);</span><br><span class="line"><span class="comment">//toggle</span></span><br><span class="line">Events.hotKey = <span class="string">'i'</span>; <span class="comment">// hotkey must be one keystroke with/without modifier, it can not be a sequence of keystrokes like `gg`.</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// tab</span></span><br><span class="line">mapkey(<span class="string">'ZQ'</span>, <span class="string">'Quit'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'quit'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'ZZ'</span>, <span class="string">'Save session and quit'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'createSession'</span>, &#123;</span><br><span class="line">        name: <span class="string">'LAST'</span></span><br><span class="line">    &#125;);</span><br><span class="line">    RUNTIME(<span class="string">'quit'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'ZR'</span>, <span class="string">'Restore last session'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'openSession'</span>, &#123;</span><br><span class="line">        name: <span class="string">'LAST'</span></span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'T'</span>, <span class="string">'Choose a tab'</span>, <span class="string">'Normal.chooseTab()'</span>);</span><br><span class="line">mapkey(<span class="string">'x'</span>, <span class="string">'Close current tab'</span>, <span class="string">'RUNTIME("closeTab")'</span>);</span><br><span class="line">mapkey(<span class="string">'X'</span>, <span class="string">'Restore closed tab'</span>, <span class="string">'RUNTIME("openLast")'</span>);</span><br><span class="line">mapkey(<span class="string">'yt'</span>, <span class="string">'Duplicate current tab'</span>, <span class="string">'RUNTIME("duplicateTab")'</span>);</span><br><span class="line">mapkey(<span class="string">'J'</span>, <span class="string">'Go one tab left'</span>, <span class="string">'RUNTIME("previousTab")'</span>);</span><br><span class="line">mapkey(<span class="string">'K'</span>, <span class="string">'Go one tab right'</span>, <span class="string">'RUNTIME("nextTab")'</span>);</span><br><span class="line">mapkey(<span class="string">'P'</span>, <span class="string">'pin/unpin current tab'</span>, <span class="string">'RUNTIME("togglePinTab")'</span>);</span><br><span class="line">mapkey(<span class="string">'B'</span>, <span class="string">'Go one tab history back'</span>, <span class="string">'RUNTIME("historyTab", &#123;backward: true&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'gF'</span>, <span class="string">'Go one tab history forward'</span>, <span class="string">'RUNTIME("historyTab", &#123;backward: false&#125;)'</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// page scroll</span></span><br><span class="line">mapkey(<span class="string">'cs'</span>, <span class="string">'Change scroll target'</span>, <span class="string">'Normal.changeScrollTarget()'</span>);</span><br><span class="line">mapkey(<span class="string">'gg'</span>, <span class="string">'Scroll to the top of the page'</span>, <span class="string">'Normal.scroll("top")'</span>);</span><br><span class="line">mapkey(<span class="string">'G'</span>, <span class="string">'Scroll to the bottom of the page'</span>, <span class="string">'Normal.scroll("bottom")'</span>);</span><br><span class="line">mapkey(<span class="string">'u'</span>, <span class="string">'Scroll a page up'</span>, <span class="string">'Normal.scroll("pageUp")'</span>);</span><br><span class="line">mapkey(<span class="string">'d'</span>, <span class="string">'Scroll a page down'</span>, <span class="string">'Normal.scroll("pageDown")'</span>);</span><br><span class="line">mapkey(<span class="string">'j'</span>, <span class="string">'Scroll down'</span>, <span class="string">'Normal.scroll("down")'</span>);</span><br><span class="line">mapkey(<span class="string">'k'</span>, <span class="string">'Scroll up'</span>, <span class="string">'Normal.scroll("up")'</span>);</span><br><span class="line">mapkey(<span class="string">'h'</span>, <span class="string">'Scroll left'</span>, <span class="string">'Normal.scroll("left")'</span>);</span><br><span class="line">mapkey(<span class="string">'l'</span>, <span class="string">'Scroll right'</span>, <span class="string">'Normal.scroll("right")'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// history</span></span><br><span class="line">mapkey(<span class="string">'gh'</span>, <span class="string">'Open Chrome History'</span>, <span class="string">'tabOpenLink("chrome://history/")'</span>);</span><br><span class="line">mapkey(<span class="string">'H'</span>, <span class="string">'Go back in history'</span>, <span class="string">'history.go(-1)'</span>);</span><br><span class="line">mapkey(<span class="string">'L'</span>, <span class="string">'Go forward in history'</span>, <span class="string">'history.go(1)'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// new</span></span><br><span class="line">mapkey(<span class="string">'r'</span>, <span class="string">'Reload the page'</span>, <span class="string">'RUNTIME("reloadTab", &#123; nocache: false &#125;)'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// input</span></span><br><span class="line">mapkey(<span class="string">'i'</span>, <span class="string">'Go to edit box'</span>, <span class="string">'Hints.create("input:visible, textarea:visible", Hints.dispatchMouseClick)'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// click</span></span><br><span class="line">Hints.pointers = <span class="string">"a, button, *:visible:css(cursor=pointer), select:visible, input:visible, textarea:visible"</span>; <span class="comment">// define all the css selectors that can be followed</span></span><br><span class="line">mapkey(<span class="string">'f'</span>, <span class="string">'Open a link'</span>, <span class="string">'Hints.create(Hints.pointers, Hints.dispatchMouseClick)'</span>);</span><br><span class="line">mapkey(<span class="string">'F'</span>, <span class="string">'Open a link in new tab'</span>, <span class="string">'Hints.create(Hints.pointers, Hints.dispatchMouseClick, &#123;tabbed: true&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'gf'</span>, <span class="string">'Open a link in non-active new tab'</span>, <span class="string">'Hints.create(Hints.pointers, Hints.dispatchMouseClick, &#123;tabbed: true, active: false&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'a-f'</span>, <span class="string">'Open multiple links in a new tab'</span>, <span class="string">'Hints.create(Hints.pointers, Hints.dispatchMouseClick, &#123;tabbed: true, active: false, multipleHits: true&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'q'</span>, <span class="string">'Click on an Image or a button'</span>, <span class="string">'Hints.create("img, button", Hints.dispatchMouseClick)'</span>);</span><br><span class="line"><span class="comment">// next and pre page</span></span><br><span class="line">mapkey(<span class="string">'[['</span>, <span class="string">'Click on the previous link on current page'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> prevLinks = $(<span class="string">'a'</span>).regex(<span class="regexp">/((上页|上一页|&lt;&lt;|prev(ious)?)+)/i</span>);</span><br><span class="line">    <span class="keyword">if</span> (prevLinks.length) &#123;</span><br><span class="line">        clickOn(prevLinks);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        walkPageUrl(-<span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">']]'</span>, <span class="string">'Click on the next link on current page'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> nextLinks = $(<span class="string">'a'</span>).regex(<span class="regexp">/((下页|下一页|&gt;&gt;|next)+)/i</span>);</span><br><span class="line">    <span class="keyword">if</span> (nextLinks.length) &#123;</span><br><span class="line">        clickOn(nextLinks);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        walkPageUrl(<span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// command</span></span><br><span class="line">mapkey(<span class="string">':'</span>, <span class="string">'Open commands'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "Commands"&#125;)'</span>);</span><br><span class="line">command(<span class="string">'quit'</span>, <span class="string">'quit chrome'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'quit'</span>);</span><br><span class="line">&#125;);</span><br><span class="line">command(<span class="string">'listSession'</span>, <span class="string">'list session'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    runtime.command(&#123;</span><br><span class="line">        action: <span class="string">'getSessions'</span></span><br><span class="line">    &#125;, <span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">        Omnibar.listResults(<span class="built_in">Object</span>.keys(response.sessions), <span class="function"><span class="keyword">function</span>(<span class="params">s</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> $(<span class="string">'&lt;li&gt;&lt;/li&gt;'</span>).html(s);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">command(<span class="string">'createSession'</span>, <span class="string">'createSession [name]'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'createSession'</span>, &#123;</span><br><span class="line">        name: name</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">command(<span class="string">'deleteSession'</span>, <span class="string">'deleteSession [name]'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'deleteSession'</span>, &#123;</span><br><span class="line">        name: name</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>; <span class="comment">// to close omnibar after the command executed.</span></span><br><span class="line">&#125;);</span><br><span class="line">command(<span class="string">'openSession'</span>, <span class="string">'openSession [name]'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">    RUNTIME(<span class="string">'openSession'</span>, &#123;</span><br><span class="line">        name: name</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// visual mode</span></span><br><span class="line">mapkey(<span class="string">'v'</span>, <span class="string">'Toggle visual mode'</span>, <span class="string">'Visual.toggle()'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// find</span></span><br><span class="line">mapkey(<span class="string">'/'</span>, <span class="string">'Find in current page'</span>, <span class="string">'Normal.openFinder()'</span>);</span><br><span class="line">mapkey(<span class="string">'*'</span>, <span class="string">'Find selected text in current page'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    Visual.star();</span><br><span class="line">    Visual.toggle();</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'n'</span>, <span class="string">'Next found text'</span>, <span class="string">'Visual.next(false)'</span>);</span><br><span class="line">mapkey(<span class="string">'N'</span>, <span class="string">'Previous found text'</span>, <span class="string">'Visual.next(true)'</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">mapkey(<span class="string">'m'</span>, <span class="string">'Add current URL to vim-like marks'</span>, Normal.addVIMark, <span class="number">1</span>);</span><br><span class="line">mapkey(<span class="string">"'"</span>, <span class="string">'Jump to vim-like mark'</span>, Normal.jumpVIMark, <span class="number">1</span>);</span><br><span class="line">mapkey(<span class="string">'w'</span>, <span class="string">'Switch frames'</span>, <span class="string">'Normal.rotateFrame()'</span>);</span><br><span class="line">mapkey(<span class="string">'p'</span>, <span class="string">'Paste html on current page.'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    Normal.getContentFromClipboard(<span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">document</span>.body.innerHTML = response.data;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'cc'</span>, <span class="string">'Open selected link or link from clipboard'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    Normal.getContentFromClipboard(<span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">        tabOpenLink(<span class="built_in">window</span>.getSelection().toString() || response.data);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// url</span></span><br><span class="line">mapkey(<span class="string">'ou'</span>, <span class="string">'Open an URLs'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "URLs"&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'b'</span>, <span class="string">'Open a bookmark'</span>, <span class="string">'Normal.openOmnibar((&#123;type: "Bookmarks"&#125;))'</span>);</span><br><span class="line">mapkey(<span class="string">'oh'</span>, <span class="string">'Open URL from history'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "History"&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'om'</span>, <span class="string">'Open URL from vim-like marks'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "VIMarks"&#125;)'</span>);</span><br><span class="line"></span><br><span class="line">mapkey(<span class="string">'ys'</span>, <span class="string">"Copy current page's source"</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> aa = <span class="built_in">document</span>.documentElement.cloneNode(<span class="literal">true</span>);</span><br><span class="line">    Normal.writeClipboard(aa.outerHTML);</span><br><span class="line">&#125;);</span><br><span class="line">mapkey(<span class="string">'yf'</span>, <span class="string">"Copy current page's URL"</span>, <span class="string">'Normal.writeClipboard(window.location.href)'</span>);</span><br><span class="line">mapkey(<span class="string">'yl'</span>, <span class="string">"Copy current page's title"</span>, <span class="string">'Normal.writeClipboard(document.title)'</span>);</span><br><span class="line">mapkey(<span class="string">'ob'</span>, <span class="string">'Open Search with alias b'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "SearchEngine", extra: "b"&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'og'</span>, <span class="string">'Open Search with alias g'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "SearchEngine", extra: "g"&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'ow'</span>, <span class="string">'Open Search with alias w'</span>, <span class="string">'Normal.openOmnibar(&#123;type: "SearchEngine", extra: "w"&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'t'</span>, <span class="string">'Open Chrome newtab'</span>, <span class="string">'tabOpenLink("chrome://newtab/")'</span>);</span><br><span class="line">mapkey(<span class="string">'gb'</span>, <span class="string">'Open Chrome Bookmarks'</span>, <span class="string">'tabOpenLink("chrome://bookmarks/")'</span>);</span><br><span class="line">mapkey(<span class="string">'gj'</span>, <span class="string">'Open Chrome Bookmarks'</span>, <span class="string">'tabOpenLink("chrome://chrome/settings/contentExceptions#javascript")'</span>);</span><br><span class="line">mapkey(<span class="string">'gc'</span>, <span class="string">'Open Chrome Cache'</span>, <span class="string">'tabOpenLink("chrome://cache/")'</span>);</span><br><span class="line">mapkey(<span class="string">'gd'</span>, <span class="string">'Open Chrome Downloads'</span>, <span class="string">'tabOpenLink("chrome://downloads/")'</span>);</span><br><span class="line">mapkey(<span class="string">'gk'</span>, <span class="string">'Open Chrome Cookies'</span>, <span class="string">'tabOpenLink("chrome://settings/cookies")'</span>);</span><br><span class="line">mapkey(<span class="string">'ge'</span>, <span class="string">'Open Chrome Extensions'</span>, <span class="string">'tabOpenLink("chrome://extensions/")'</span>);</span><br><span class="line">mapkey(<span class="string">'gn'</span>, <span class="string">'Open Chrome net-internals'</span>, <span class="string">'tabOpenLink("chrome://net-internals/#proxy")'</span>);</span><br><span class="line">mapkey(<span class="string">'gs'</span>, <span class="string">'View page source'</span>, <span class="string">'RUNTIME("viewSource", &#123; tab: &#123; tabbed: true &#125;&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'gu'</span>, <span class="string">'Go up one path in the URL'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> url = location.href;</span><br><span class="line">    <span class="keyword">if</span> (location.pathname.length &gt; <span class="number">1</span>) &#123;</span><br><span class="line">        url = url.endsWith(<span class="string">'/'</span>) ? url.substr(<span class="number">0</span>, url.length - <span class="number">1</span>) : url;</span><br><span class="line">        url = url.substr(<span class="number">0</span>, url.lastIndexOf(<span class="string">'/'</span>));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">window</span>.location.href = url;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line">mapkey(<span class="string">'gU'</span>, <span class="string">'Go to root of current URL hierarchy'</span>, <span class="string">'window.location.href = window.location.origin'</span>);</span><br><span class="line">mapkey(<span class="string">'se'</span>, <span class="string">'Edit Settings'</span>, <span class="string">'RUNTIME("editSettings", &#123; tab: &#123; tabbed: true &#125;&#125;)'</span>);</span><br><span class="line">mapkey(<span class="string">'sr'</span>, <span class="string">'Reset Settings'</span>, <span class="string">'Normal.resetSettings()'</span>);</span><br><span class="line">mapkey(<span class="string">'si'</span>, <span class="string">'Open Chrome Inpect'</span>, <span class="string">'tabOpenLink("chrome://inspect/#devices")'</span>);</span><br><span class="line">mapkey(<span class="string">';q'</span>, <span class="string">'Insert jquery library on current page'</span>, <span class="string">'Normal.insertJS("//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js")'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// search</span></span><br><span class="line">addSearchAliasX(<span class="string">'g'</span>, <span class="string">'google'</span>, <span class="string">'https://www.google.com/search?q='</span>, <span class="string">'s'</span>, <span class="string">'https://www.google.com/complete/search?client=chrome-omni&amp;gs_ri=chrome-ext&amp;oit=1&amp;cp=1&amp;pgcl=7&amp;q='</span>, <span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> res = <span class="built_in">eval</span>(response.text);</span><br><span class="line">    Omnibar.listWords(res[<span class="number">1</span>]);</span><br><span class="line">&#125;);</span><br><span class="line">addSearchAliasX(<span class="string">'b'</span>, <span class="string">'baidu'</span>, <span class="string">'https://www.baidu.com/s?wd='</span>, <span class="string">'s'</span>, <span class="string">'http://suggestion.baidu.com/su?cb=eval&amp;wd='</span>, <span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> res = <span class="built_in">eval</span>(response.text);</span><br><span class="line">    Omnibar.listWords(res.s);</span><br><span class="line">&#125;);</span><br><span class="line">addSearchAliasX(<span class="string">'w'</span>, <span class="string">'bing'</span>, <span class="string">'http://global.bing.com/search?setmkt=en-us&amp;setlang=en-us&amp;q='</span>, <span class="string">'s'</span>, <span class="string">'http://api.bing.com/osjson.aspx?query='</span>, <span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> res = <span class="built_in">eval</span>(response.text);</span><br><span class="line">    Omnibar.listWords(res[<span class="number">1</span>]);</span><br><span class="line">&#125;);</span><br><span class="line">addSearchAliasX(<span class="string">'s'</span>, <span class="string">'stackoverflow'</span>, <span class="string">'http://stackoverflow.com/search?q='</span>);</span><br><span class="line">addSearchAliasX(<span class="string">'h'</span>, <span class="string">'github'</span>, <span class="string">'https://github.com/search?type=Code&amp;utf8=%E2%9C%93&amp;q='</span>);</span><br><span class="line"></span><br><span class="line">$(<span class="built_in">document</span>).dblclick(<span class="function"><span class="keyword">function</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> sel = <span class="built_in">window</span>.getSelection().toString();</span><br><span class="line">    <span class="keyword">if</span> (sel &amp;&amp; sel.length) &#123;</span><br><span class="line">        httpRequest(&#123;</span><br><span class="line">            <span class="string">'url'</span>: <span class="string">'https://api.shanbay.com/bdc/search/?word='</span> + sel</span><br><span class="line">        &#125;, <span class="function"><span class="keyword">function</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> res = <span class="built_in">eval</span>(<span class="string">"a="</span> + res.text);</span><br><span class="line">            <span class="keyword">var</span> b = <span class="built_in">window</span>.getSelection().getRangeAt(<span class="number">0</span>).getBoundingClientRect();</span><br><span class="line">            <span class="keyword">var</span> pos = [b.top - <span class="number">18</span>, b.left + b.width / <span class="number">2</span> - <span class="number">12</span>];</span><br><span class="line">            Normal.showBubble(&#123;</span><br><span class="line">                top: pos[<span class="number">0</span>],</span><br><span class="line">                left: pos[<span class="number">1</span>]</span><br><span class="line">            &#125;, res.data.definition || res.msg);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;).click(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    Normal.hideBubble();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
@@ -195,7 +270,7 @@
     <link href="http://yoursite.com/2015/12/31/happy-new-year-2016/"/>
     <id>http://yoursite.com/2015/12/31/happy-new-year-2016/</id>
     <published>2015-12-31T15:48:35.000Z</published>
-    <updated>2015-12-31T15:52:13.014Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">365</span>):</span><br><span class="line">    <span class="keyword">print</span> <span class="string">"happy Year: 2016; Date: &#123;&#125;"</span>.format(i+<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
@@ -211,7 +286,7 @@
     <link href="http://yoursite.com/2015/12/30/rust-in-ubuntu/"/>
     <id>http://yoursite.com/2015/12/30/rust-in-ubuntu/</id>
     <published>2015-12-30T13:13:25.000Z</published>
-    <updated>2015-12-30T14:57:37.472Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<h1 id="rust_u8FD0_u884C_u73AF_u5883_u7684_u5B89_u88C5"><a href="#rust_u8FD0_u884C_u73AF_u5883_u7684_u5B89_u88C5" class="headerlink" title="rust运行环境的安装"></a>rust运行环境的安装</h1><h2 id="u5B89_u88C5"><a href="#u5B89_u88C5" class="headerlink" title="安装"></a>安装</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl <span class="operator">-s</span>Sf https://static.rust-lang.org/rustup.sh | sh</span><br></pre></td></tr></table></figure>
 <h2 id="helloworld"><a href="#helloworld" class="headerlink" title="helloworld"></a>helloworld</h2><ul>
 <li>方法一:rustc<figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// save file as helloworld.rs</span></span><br><span class="line"><span class="function"><span class="keyword">fn</span> <span class="title">main</span></span>() &#123;</span><br><span class="line">    <span class="built_in">println!</span>(<span class="string">"hello helab"</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
@@ -238,7 +313,7 @@
     <link href="http://yoursite.com/2015/12/28/flow-cytometry-lmd2fcs/"/>
     <id>http://yoursite.com/2015/12/28/flow-cytometry-lmd2fcs/</id>
     <published>2015-12-28T11:26:56.000Z</published>
-    <updated>2016-01-02T02:52:04.769Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<h1 id="u65B9_u6CD5_u4E00_3A_R_u8BED_u8A00_u5305flowcore"><a href="#u65B9_u6CD5_u4E00_3A_R_u8BED_u8A00_u5305flowcore" class="headerlink" title="方法一: R语言包flowcore"></a>方法一: R语言包flowcore</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># install</span></span><br><span class="line"><span class="keyword">source</span>(<span class="string">"http://bioconductor.org/biocLite.R"</span>)</span><br><span class="line">biocLite(<span class="string">"flowCore"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert</span></span><br><span class="line"><span class="keyword">library</span>(flowCore)</span><br><span class="line">x &lt;- read.FCS(in.fname) <span class="comment">#in.fname=xxx.lmd</span></span><br><span class="line">write.FCS(x,out.fname) <span class="comment">#in.fname=xxx.fcs</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#批量lmd转化为fcs</span></span><br><span class="line"><span class="keyword">library</span>(flowCore)</span><br><span class="line"><span class="keyword">library</span>(tools)</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(<span class="string">"./"</span>)</span><br><span class="line"></span><br><span class="line">lmd2fcs &lt;- <span class="keyword">function</span>(fi)&#123;</span><br><span class="line">    x &lt;- read.FCS(fi)</span><br><span class="line">    write.FCS(x,paste0(file_path_sans_ext(fi),<span class="string">".fcs"</span>))</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">lapply(files, lmd2fcs)</span><br><span class="line"></span><br><span class="line">lmd2csv &lt;- <span class="keyword">function</span>(fi)&#123;</span><br><span class="line">    x &lt;- read.FCS(fi)</span><br><span class="line">    write.csv(summary(x),file=paste0(file_path_sans_ext(fi),<span class="string">".summary.csv"</span>))</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">lapply(files, lmd2csv)</span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -257,7 +332,7 @@
     <link href="http://yoursite.com/2015/12/27/vim-tip-2/"/>
     <id>http://yoursite.com/2015/12/27/vim-tip-2/</id>
     <published>2015-12-27T15:41:23.000Z</published>
-    <updated>2015-12-29T14:23:43.363Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Q: 删除到/插入到/移动到 行首怎么搞?</p>
 </blockquote>
@@ -327,7 +402,7 @@
     <link href="http://yoursite.com/2015/12/27/vim-tip-1/"/>
     <id>http://yoursite.com/2015/12/27/vim-tip-1/</id>
     <published>2015-12-27T05:41:23.000Z</published>
-    <updated>2015-12-28T11:33:08.064Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么办?</p>
 </blockquote>
@@ -355,7 +430,7 @@
     <link href="http://yoursite.com/2015/12/27/vim-tip/"/>
     <id>http://yoursite.com/2015/12/27/vim-tip/</id>
     <published>2015-12-27T05:41:16.000Z</published>
-    <updated>2015-12-28T11:33:08.064Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>这个系列叫“随手记录点vim技巧”<br>大概就是把自己重复遇到过几次以上的vim问题记录起来，现在记性不好了</p>
 </blockquote>
@@ -378,7 +453,7 @@
     <link href="http://yoursite.com/2015/12/27/singular-and-nonsingular-matrix/"/>
     <id>http://yoursite.com/2015/12/27/singular-and-nonsingular-matrix/</id>
     <published>2015-12-26T16:27:27.000Z</published>
-    <updated>2015-12-26T16:29:39.547Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<h1 id="u5947_u5F02_u77E9_u9635_uFF08singular_matrix_uFF09"><a href="#u5947_u5F02_u77E9_u9635_uFF08singular_matrix_uFF09" class="headerlink" title="奇异矩阵（singular matrix）"></a>奇异矩阵（singular matrix）</h1><h1 id="u975E_u5947_u5F02_u77E9_u9635_uFF08nonsingular_matrix_uFF09"><a href="#u975E_u5947_u5F02_u77E9_u9635_uFF08nonsingular_matrix_uFF09" class="headerlink" title="非奇异矩阵（nonsingular matrix）"></a>非奇异矩阵（nonsingular matrix）</h1><blockquote>
 <p>对于矩阵A，如果存在一个矩阵B，使得AB=BA=I，其中I为与A,B同维数的单位阵，就称A为可逆矩阵（或者称A可逆），并称B是A的逆矩阵，简称逆阵。（此时的逆称为凯利逆） 　　矩阵A可逆的充分必要条件是|A|≠0。 　　奇异矩阵阵或非方阵的矩阵不存在逆矩阵，但可以用函数pinv(A)求其伪逆矩阵。基本语法为X=pinv(A),X=pinv(A,tol),其中tol为误差：max(size(A))<em>norm(A)</em>eps。函数返回一个与A的转置矩阵A’ 同型的矩阵X，并且满足：AXA=A,XAX=X.此时，称矩阵X为矩阵A的伪逆，也称为广义逆矩阵。pinv(A)具有inv(A)的部分特性，但不与inv(A)完全等同。<br>如果A为非奇异方阵，pinv(A)=inv(A)，但却会耗费大量的计算时间，相比较而言，inv(A)花费更少的时间。<br>奇异矩阵是线性代数的概念，就是对应的行列式等于0的矩阵。<br>奇异矩阵的判断方法：首先，看这个矩阵是不是方阵（即行数和列数相等的矩阵。若行数和列数不相等，那就谈不上奇异矩阵和非奇异矩阵）。 然后，再看此方阵的行列式|A|是否等于0，若等于0，称矩阵A为奇异矩阵；若不等于0，称矩阵A为非奇异矩阵。 同时，由|A|≠0可知矩阵A可逆，这样可以得出另外一个重要结论:可逆矩阵就是非奇异矩阵，非奇异矩阵也是可逆矩阵。</p>
 </blockquote>
@@ -396,7 +471,7 @@
     <link href="http://yoursite.com/2015/12/27/det-norm-of-matrix/"/>
     <id>http://yoursite.com/2015/12/27/det-norm-of-matrix/</id>
     <published>2015-12-26T16:14:21.000Z</published>
-    <updated>2015-12-30T09:55:02.064Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<h1 id="det_28A_29"><a href="#det_28A_29" class="headerlink" title="det(A)"></a>det(A)</h1><p><img src="https://upload.wikimedia.org/math/9/c/c/9ccd8b1b2c36abe1bd149a1cfd33ef79.png" alt=""><br><img src="https://upload.wikimedia.org/math/f/9/a/f9adf792863db24908ec88d922a545bf.png" alt=""><br><img src="https://upload.wikimedia.org/math/a/8/4/a84b6d9c86846b74d3a83cd04d0cc84f.png" alt=""></p>
 <h1 id="norm_28A_29"><a href="#norm_28A_29" class="headerlink" title="norm(A)"></a>norm(A)</h1>]]></content>
     <summary type="html">
@@ -412,7 +487,7 @@
     <link href="http://yoursite.com/2015/12/26/chrome-webshell/"/>
     <id>http://yoursite.com/2015/12/26/chrome-webshell/</id>
     <published>2015-12-26T09:50:49.000Z</published>
-    <updated>2015-12-28T16:12:44.449Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<h1 id="secure_shell_for_chrome"><a href="#secure_shell_for_chrome" class="headerlink" title="secure shell for chrome"></a>secure shell for chrome</h1><ul>
 <li>安装</li>
 </ul>
@@ -437,7 +512,7 @@
     <link href="http://yoursite.com/2015/12/25/fontend-js-framework/"/>
     <id>http://yoursite.com/2015/12/25/fontend-js-framework/</id>
     <published>2015-12-25T02:54:10.000Z</published>
-    <updated>2015-12-25T04:07:01.697Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<h1 id="u524D_u7AEF_u6846_u67B6"><a href="#u524D_u7AEF_u6846_u67B6" class="headerlink" title="前端框架"></a>前端框架</h1><blockquote>
 <p>MVVM, MVC 什么的还不清楚…</p>
 </blockquote>
@@ -493,7 +568,7 @@
     <link href="http://yoursite.com/2015/12/25/web-engines/"/>
     <id>http://yoursite.com/2015/12/25/web-engines/</id>
     <published>2015-12-24T17:39:39.000Z</published>
-    <updated>2015-12-25T02:56:58.020Z</updated>
+    <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<h1 id="Web_engines"><a href="#Web_engines" class="headerlink" title="Web engines"></a>Web engines</h1><p>web engines 拓展了html/css的功能，相当于“正则化”的模板</p>
 <h2 id="html_engines"><a href="#html_engines" class="headerlink" title="html engines"></a>html engines</h2><blockquote>
 <p>Web模板         —-生成html</p>
@@ -530,7 +605,7 @@
     <link href="http://yoursite.com/2015/12/23/compair-sync-and-async/"/>
     <id>http://yoursite.com/2015/12/23/compair-sync-and-async/</id>
     <published>2015-12-23T07:21:01.000Z</published>
-    <updated>2015-12-23T07:31:08.763Z</updated>
+    <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Sync in C</p>
 </blockquote>
@@ -547,101 +622,6 @@
     </summary>
     
       <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[node.js学习笔记(三)]]></title>
-    <link href="http://yoursite.com/2015/12/23/express-node-begin/"/>
-    <id>http://yoursite.com/2015/12/23/express-node-begin/</id>
-    <published>2015-12-23T06:42:59.000Z</published>
-    <updated>2015-12-23T06:51:27.741Z</updated>
-    <content type="html"><![CDATA[<h1 id="u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528"><a href="#u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528" class="headerlink" title="用node的express插件创建应用"></a>用node的express插件创建应用</h1><ul>
-<li>创建项目环境</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir myapp</span><br><span class="line">$ <span class="built_in">cd</span> myapp</span><br><span class="line">$ npm install express --save</span><br><span class="line">$ vim app.js</span><br></pre></td></tr></table></figure>
-<ul>
-<li>编写javascript脚本</li>
-</ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//app.js 内容</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>)</span><br><span class="line"><span class="keyword">var</span> app = express()</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello World!'</span>)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server = app.listen(<span class="number">3000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> host = server.address().address</span><br><span class="line">  <span class="keyword">var</span> port = server.address().port</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'Example app listening at http://%s:%s'</span>, host, port)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>启动服务,监听3000端口<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node app.js</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528"><a href="#u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528" cl]]>
-    </summary>
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
-    
-      <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[linux_for_beginer_from_a_beginer]]></title>
-    <link href="http://yoursite.com/2015/12/22/linux-for-beginer-from-a-beginer/"/>
-    <id>http://yoursite.com/2015/12/22/linux-for-beginer-from-a-beginer/</id>
-    <published>2015-12-22T05:47:48.000Z</published>
-    <updated>2015-12-22T07:02:53.638Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>这不是一份系统的教程, 也不是科学的入门方案, 只是希望能让刚接触linux的人少点困惑.</p>
-</blockquote>
-<p>linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过来也是一样的.</p>
-<p><em>不过,别问我linux怎么上QQ, 基本没有很好的方案.</em></p>
-<h1 id="u6587_u4EF6_u64CD_u4F5C"><a href="#u6587_u4EF6_u64CD_u4F5C" class="headerlink" title="文件操作"></a>文件操作</h1><p>windows下做得最多的文件操作无非是”打开”,”复制”,”粘贴”,”重命名”.<br>linux下的对应关系</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"打开文件夹"</span> == <span class="string">"ls"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子一: 打开当前文件夹</li>
-</ul>
-<p><img src="/images/linux_b1.png" alt="打开"></p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"复制+粘贴"</span> == <span class="string">"cp"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子二: 复制hehe.txt文件,并粘贴为haha.txt</li>
-</ul>
-<p><img src="/images/linux_b2.png" alt="复制"></p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"重命名/移动"</span> == <span class="string">"mv"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子三: 将haha.txt重命名为hello.txt</li>
-</ul>
-<p><img src="/images/linux_b3.png" alt="重命名"></p>
-<p>虽然这些命令都是两个字符能搞定的, 但是后面得输入很长的一串文件名, 熟练使用windows的人一定会觉得效率太低.<br>不过这里面涉及到linux的哲学: <strong>“一切都是对象”</strong>, 可以勉强的理解为所有的东西都是可以操作的, 这是linux和windows比较大的区别. 因为这里说的 <strong>“一切”</strong> 包括了复制粘贴命名本身. 看下面这里例子基本可以说明问题.</p>
-<ul>
-<li>例子四: 批量添加前缀<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...</span></span><br><span class="line"><span class="comment">#在linux系统, 因为重命名本身是可以被操作的, 所以你就可以用一个循环来实现重命名, 甚至对重命名命令本身进行修改</span></span><br><span class="line"><span class="comment">#为了方便理解可以用如下命令, *事实上linux有更方便的命令来实现这个事情*, 十几分钟的事情可以在十几秒内完成.</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> *.txt; <span class="keyword">do</span> mv <span class="variable">$i</span> <span class="string">"beginer-"</span><span class="variable">$i</span>;<span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><img src="/images/linux_b4.png" alt="批量操作"></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<blockquote>
-<p>这不是一份系统的教程, 也不是科学的入门方案, 只是希望能让刚接触linux的人少点困惑.</p>
-</blockquote>
-<p>linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[node.js学习笔记(二)]]></title>
-    <link href="http://yoursite.com/2015/12/22/learn-nodejs-note-2/"/>
-    <id>http://yoursite.com/2015/12/22/learn-nodejs-note-2/</id>
-    <published>2015-12-21T16:09:42.000Z</published>
-    <updated>2015-12-22T04:52:26.773Z</updated>
-    <content type="html"><![CDATA[<h1 id="u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B"><a href="#u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B" class="headerlink" title="网页端的javascript和服务端的nodejs的区别"></a>网页端的javascript和服务端的nodejs的区别</h1><h2 id="u7F51_u9875_u7AEF"><a href="#u7F51_u9875_u7AEF" class="headerlink" title="网页端"></a>网页端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> **<span class="attribute">Uncaught</span> <span class="attribute">ReferenceError:</span> <span class="attribute">global</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span>(…)**</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="u670D_u52A1_u7AEF"><a href="#u670D_u52A1_u7AEF" class="headerlink" title="服务端"></a>服务端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">ReferenceError:</span> <span class="attribute">window</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span></span></span><br></pre></td></tr></table></figure>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B"><a href="#u7F51_u9875_u7AEF_u7684javascript]]>
-    </summary>
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="nodejs" scheme="http://yoursite.com/tags/nodejs/"/>
     
       <category term="tech" scheme="http://yoursite.com/tags/tech/"/>
     

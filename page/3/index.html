@@ -108,7 +108,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Bio/" style="font-size: 10px;">Bio</a> <a href="/tags/R/" style="font-size: 12px;">R</a> <a href="/tags/bioinfo/" style="font-size: 10px;">bioinfo</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coding/" style="font-size: 20px;">coding</a> <a href="/tags/daily/" style="font-size: 10px;">daily</a> <a href="/tags/date/" style="font-size: 10px;">date</a> <a href="/tags/geek/" style="font-size: 10px;">geek</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/javascript/" style="font-size: 16px;">javascript</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/math/" style="font-size: 14px;">math</a> <a href="/tags/nodejs/" style="font-size: 12px;">nodejs</a> <a href="/tags/note/" style="font-size: 10px;">note</a> <a href="/tags/paper/" style="font-size: 10px;">paper</a> <a href="/tags/rust/" style="font-size: 10px;">rust</a> <a href="/tags/tech/" style="font-size: 18px;">tech</a> <a href="/tags/test/" style="font-size: 10px;">test</a> <a href="/tags/tools/" style="font-size: 10px;">tools</a> <a href="/tags/vim/" style="font-size: 14px;">vim</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
+						<a href="/tags/Bio/" style="font-size: 10px;">Bio</a> <a href="/tags/R/" style="font-size: 12px;">R</a> <a href="/tags/bioinfo/" style="font-size: 10px;">bioinfo</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coding/" style="font-size: 20px;">coding</a> <a href="/tags/daily/" style="font-size: 10px;">daily</a> <a href="/tags/date/" style="font-size: 10px;">date</a> <a href="/tags/first/" style="font-size: 10px;">first</a> <a href="/tags/geek/" style="font-size: 10px;">geek</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/javascript/" style="font-size: 16px;">javascript</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/math/" style="font-size: 14px;">math</a> <a href="/tags/nodejs/" style="font-size: 12px;">nodejs</a> <a href="/tags/note/" style="font-size: 10px;">note</a> <a href="/tags/paper/" style="font-size: 10px;">paper</a> <a href="/tags/rust/" style="font-size: 10px;">rust</a> <a href="/tags/tech/" style="font-size: 18px;">tech</a> <a href="/tags/test/" style="font-size: 10px;">test</a> <a href="/tags/tools/" style="font-size: 10px;">tools</a> <a href="/tags/vim/" style="font-size: 14px;">vim</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
 					</div>
 				</section>
 				
@@ -172,11 +172,11 @@
 </nav>
       <div class="body-wrap">
   
-    <article id="post-learn-nodejs-note" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-express-node-begin" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/12/21/learn-nodejs-note/" class="article-date">
-  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">2015-12-21</time>
+      <a href="/2015/12/23/express-node-begin/" class="article-date">
+  	<time datetime="2015-12-23T06:42:59.000Z" itemprop="datePublished">2015-12-23</time>
 </a>
     </div>
   
@@ -189,7 +189,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/21/learn-nodejs-note/">node.js学习笔记(一)</a>
+      <a class="article-title" href="/2015/12/23/express-node-begin/">node.js学习笔记(三)</a>
     </h1>
   
 
@@ -198,26 +198,151 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="u8FD0_u884C_u73AF_u5883"><a href="#u8FD0_u884C_u73AF_u5883" class="headerlink" title="运行环境"></a>运行环境</h1><blockquote>
-<p>两种,类似python</p>
+        <h1 id="u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528"><a href="#u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528" class="headerlink" title="用node的express插件创建应用"></a>用node的express插件创建应用</h1><ul>
+<li>创建项目环境</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir myapp</span><br><span class="line">$ <span class="built_in">cd</span> myapp</span><br><span class="line">$ npm install express --save</span><br><span class="line">$ vim app.js</span><br></pre></td></tr></table></figure>
+<ul>
+<li>编写javascript脚本</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//app.js 内容</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>)</span><br><span class="line"><span class="keyword">var</span> app = express()</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello World!'</span>)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server = app.listen(<span class="number">3000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> host = server.address().address</span><br><span class="line">  <span class="keyword">var</span> port = server.address().port</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'Example app listening at http://%s:%s'</span>, host, port)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>启动服务,监听3000端口<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node app.js</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-linux-for-beginer-from-a-beginer" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/22/linux-for-beginer-from-a-beginer/" class="article-date">
+  	<time datetime="2015-12-22T05:47:48.000Z" itemprop="datePublished">2015-12-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/22/linux-for-beginer-from-a-beginer/">linux_for_beginer_from_a_beginer</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>这不是一份系统的教程, 也不是科学的入门方案, 只是希望能让刚接触linux的人少点困惑.</p>
 </blockquote>
+<p>linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过来也是一样的.</p>
+<p><em>不过,别问我linux怎么上QQ, 基本没有很好的方案.</em></p>
+<h1 id="u6587_u4EF6_u64CD_u4F5C"><a href="#u6587_u4EF6_u64CD_u4F5C" class="headerlink" title="文件操作"></a>文件操作</h1><p>windows下做得最多的文件操作无非是”打开”,”复制”,”粘贴”,”重命名”.<br>linux下的对应关系</p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"打开文件夹"</span> == <span class="string">"ls"</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>命令行交互</li>
+<li>例子一: 打开当前文件夹</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="built_in">console</span>.log(<span class="string">"Hello World"</span>);</span><br></pre></td></tr></table></figure>
+<p><img src="/images/linux_b1.png" alt="打开"></p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"复制+粘贴"</span> == <span class="string">"cp"</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>文件运行(无需编译)</li>
+<li>例子二: 复制hehe.txt文件,并粘贴为haha.txt</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">echo</span> <span class="string">'console.log("Hello World")'</span> &gt; helloworld.js</span><br><span class="line">$ node helloworld.js</span><br></pre></td></tr></table></figure>
-<hr>
-<h1 id="u51FD_u6570_u4F20_u9012"><a href="#u51FD_u6570_u4F20_u9012" class="headerlink" title="函数传递"></a>函数传递</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">say</span>(<span class="params">world</span>)</span>&#123;</span><br><span class="line"> <span class="built_in">console</span>.log(world);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</span><br><span class="line"> someFunction(value)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">execute(say,<span class="string">"Hello YC"</span>);</span><br></pre></td></tr></table></figure>
-<p>等价于</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</span><br><span class="line"> someFunction(value)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">execute(<span class="function"><span class="keyword">function</span>(<span class="params">word</span>)</span>&#123;<span class="built_in">console</span>.log(word)&#125;,<span class="string">"Hello YC"</span>);</span><br></pre></td></tr></table></figure>
-<p>其中say()函数不需要命名,作为匿名函数</p>
-<h1 id="u6A21_u5757_u8C03_u7528"><a href="#u6A21_u5757_u8C03_u7528" class="headerlink" title="模块调用"></a>模块调用</h1><h2 id="server-js"><a href="#server-js" class="headerlink" title="server.js"></a>server.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">start</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">onRequest</span>(<span class="params">request, response</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"Request received."</span>);</span><br><span class="line">  response.writeHead(<span class="number">200</span>, &#123;<span class="string">"Content-Type"</span>: <span class="string">"text/plain"</span>&#125;);</span><br><span class="line">  response.write(<span class="string">"Hello YC"</span>);</span><br><span class="line">  response.end();</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> http.createServer(onRequest).listen(<span class="number">8888</span>);</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">"Server has started."</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">exports.start = start;</span><br></pre></td></tr></table></figure>
-<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> server = <span class="built_in">require</span>(<span class="string">"./server"</span>);</span><br><span class="line"></span><br><span class="line">server.start();</span><br></pre></td></tr></table></figure>
-<p>直接node index.js 运行，会调用server.js</p>
+<p><img src="/images/linux_b2.png" alt="复制"></p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"重命名/移动"</span> == <span class="string">"mv"</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>例子三: 将haha.txt重命名为hello.txt</li>
+</ul>
+<p><img src="/images/linux_b3.png" alt="重命名"></p>
+<p>虽然这些命令都是两个字符能搞定的, 但是后面得输入很长的一串文件名, 熟练使用windows的人一定会觉得效率太低.<br>不过这里面涉及到linux的哲学: <strong>“一切都是对象”</strong>, 可以勉强的理解为所有的东西都是可以操作的, 这是linux和windows比较大的区别. 因为这里说的 <strong>“一切”</strong> 包括了复制粘贴命名本身. 看下面这里例子基本可以说明问题.</p>
+<ul>
+<li>例子四: 批量添加前缀<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...</span></span><br><span class="line"><span class="comment">#在linux系统, 因为重命名本身是可以被操作的, 所以你就可以用一个循环来实现重命名, 甚至对重命名命令本身进行修改</span></span><br><span class="line"><span class="comment">#为了方便理解可以用如下命令, *事实上linux有更方便的命令来实现这个事情*, 十几分钟的事情可以在十几秒内完成.</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> *.txt; <span class="keyword">do</span> mv <span class="variable">$i</span> <span class="string">"beginer-"</span><span class="variable">$i</span>;<span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><img src="/images/linux_b4.png" alt="批量操作"></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-learn-nodejs-note-2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/22/learn-nodejs-note-2/" class="article-date">
+  	<time datetime="2015-12-21T16:09:42.000Z" itemprop="datePublished">2015-12-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/22/learn-nodejs-note-2/">node.js学习笔记(二)</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B"><a href="#u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B" class="headerlink" title="网页端的javascript和服务端的nodejs的区别"></a>网页端的javascript和服务端的nodejs的区别</h1><h2 id="u7F51_u9875_u7AEF"><a href="#u7F51_u9875_u7AEF" class="headerlink" title="网页端"></a>网页端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> **<span class="attribute">Uncaught</span> <span class="attribute">ReferenceError:</span> <span class="attribute">global</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span>(…)**</span></span></span><br></pre></td></tr></table></figure>
+<h2 id="u670D_u52A1_u7AEF"><a href="#u670D_u52A1_u7AEF" class="headerlink" title="服务端"></a>服务端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">ReferenceError:</span> <span class="attribute">window</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span></span></span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -357,6 +482,80 @@
 
 
   
+    <article id="post-learn-nodejs-note" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/21/learn-nodejs-note/" class="article-date">
+  	<time datetime="2015-12-21T06:01:05.000Z" itemprop="datePublished">2015-12-21</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/21/learn-nodejs-note/">node.js学习笔记(一)</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="u8FD0_u884C_u73AF_u5883"><a href="#u8FD0_u884C_u73AF_u5883" class="headerlink" title="运行环境"></a>运行环境</h1><blockquote>
+<p>两种,类似python</p>
+</blockquote>
+<ul>
+<li>命令行交互</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="built_in">console</span>.log(<span class="string">"Hello World"</span>);</span><br></pre></td></tr></table></figure>
+<ul>
+<li>文件运行(无需编译)</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">echo</span> <span class="string">'console.log("Hello World")'</span> &gt; helloworld.js</span><br><span class="line">$ node helloworld.js</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="u51FD_u6570_u4F20_u9012"><a href="#u51FD_u6570_u4F20_u9012" class="headerlink" title="函数传递"></a>函数传递</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">say</span>(<span class="params">world</span>)</span>&#123;</span><br><span class="line"> <span class="built_in">console</span>.log(world);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</span><br><span class="line"> someFunction(value)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">execute(say,<span class="string">"Hello YC"</span>);</span><br></pre></td></tr></table></figure>
+<p>等价于</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</span><br><span class="line"> someFunction(value)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">execute(<span class="function"><span class="keyword">function</span>(<span class="params">word</span>)</span>&#123;<span class="built_in">console</span>.log(word)&#125;,<span class="string">"Hello YC"</span>);</span><br></pre></td></tr></table></figure>
+<p>其中say()函数不需要命名,作为匿名函数</p>
+<h1 id="u6A21_u5757_u8C03_u7528"><a href="#u6A21_u5757_u8C03_u7528" class="headerlink" title="模块调用"></a>模块调用</h1><h2 id="server-js"><a href="#server-js" class="headerlink" title="server.js"></a>server.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">start</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line"> <span class="function"><span class="keyword">function</span> <span class="title">onRequest</span>(<span class="params">request, response</span>) </span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"Request received."</span>);</span><br><span class="line">  response.writeHead(<span class="number">200</span>, &#123;<span class="string">"Content-Type"</span>: <span class="string">"text/plain"</span>&#125;);</span><br><span class="line">  response.write(<span class="string">"Hello YC"</span>);</span><br><span class="line">  response.end();</span><br><span class="line"> &#125;</span><br><span class="line"></span><br><span class="line"> http.createServer(onRequest).listen(<span class="number">8888</span>);</span><br><span class="line"> <span class="built_in">console</span>.log(<span class="string">"Server has started."</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">exports.start = start;</span><br></pre></td></tr></table></figure>
+<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> server = <span class="built_in">require</span>(<span class="string">"./server"</span>);</span><br><span class="line"></span><br><span class="line">server.start();</span><br></pre></td></tr></table></figure>
+<p>直接node index.js 运行，会调用server.js</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-install-nodejs5" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -405,191 +604,6 @@
       
 	<div class="article-tag tagcloud">
 		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-convolution_and_cross-correlation" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/20/convolution_and_cross-correlation/" class="article-date">
-  	<time datetime="2015-12-20T05:13:47.088Z" itemprop="datePublished">2015-12-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/20/convolution_and_cross-correlation/">convolution 和 cross-correlation的区别</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="u8BA1_u7B97_u51FD_u6570_3A"><a href="#u8BA1_u7B97_u51FD_u6570_3A" class="headerlink" title="计算函数:"></a>计算函数:</h1><ul>
-<li><p>卷积(convolution)<br><img src="/images/convolution_func.png" alt="卷积函数"></p>
-</li>
-<li><p>互相关(cross-correlation)<br><img src="/images/cross-correlation_func.png" alt="互相关函数"></p>
-</li>
-</ul>
-<h1 id="u6570_u5B66_u89E3_u91CA_3A"><a href="#u6570_u5B66_u89E3_u91CA_3A" class="headerlink" title="数学解释:"></a>数学解释:</h1><ul>
-<li>cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation</li>
-<li>convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.</li>
-</ul>
-<hr>
-<h1 id="u73B0_u5B9E_u610F_u4E49_3A"><a href="#u73B0_u5B9E_u610F_u4E49_3A" class="headerlink" title="现实意义:"></a>现实意义:</h1><p>…</p>
-<h1 id="u4EE3_u7801_u5B9E_u73B0_3A"><a href="#u4EE3_u7801_u5B9E_u73B0_3A" class="headerlink" title="代码实现:"></a>代码实现:</h1><h2 id="matlab_code"><a href="#matlab_code" class="headerlink" title="matlab code"></a>matlab code</h2><figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">%matlab</span></span><br><span class="line">a = <span class="matrix">[<span class="number">1</span> <span class="number">5</span> <span class="number">3</span> -<span class="number">4</span> <span class="number">7</span> -<span class="number">2</span>]</span></span><br><span class="line">b = <span class="matrix">[<span class="number">2</span> <span class="number">3</span> <span class="number">5</span> <span class="number">2</span> -<span class="number">3</span> -<span class="number">9</span>]</span></span><br><span class="line"><span class="comment">%cross-correlation</span></span><br><span class="line"><span class="matrix">[corr_seq lags]</span> = xcorr(a,b)</span><br><span class="line">plot(lags,corr_seq)</span><br><span class="line"><span class="comment">%autocorrelation</span></span><br><span class="line">xcorr(a)</span><br><span class="line"><span class="comment">%convolution</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/math/">math</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-top100_journal_for_pubmed" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/20/top100_journal_for_pubmed/" class="article-date">
-  	<time datetime="2015-12-20T04:31:46.946Z" itemprop="datePublished">2015-12-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/20/top100_journal_for_pubmed/">top100 Journal for pubmed advance search</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((“CA-A CANCER JOURNAL FOR CLINICIANS”[Journal] OR “CHEMICAL REVIEWS”[Journal]) OR “REVIEWS OF MODERN PHYSICS”[Journal]) OR “NATURE”[Journal]) OR “Annual Review of Immunology”[Journal]) OR “NATURE REVIEWS GENETICS”[Journal]) OR “LANCET”[Journal]) OR “NATURE BIOTECHNOLOGY”[Journal]) OR “NATURE REVIEWS CANCER”[Journal]) OR “NATURE REVIEWS DRUG DISCOVERY”[Journal]) OR “NATURE REVIEWS MOLECULAR CELL BIOLOGY”[Journal]) OR “NATURE MATERIALS”[Journal]) OR “NATURE REVIEWS IMMUNOLOGY”[Journal]) OR “Nature Nanotechnology”[Journal]) OR “CELL”[Journal]) OR “SCIENCE”[Journal]) OR “NATURE REVIEWS NEUROSCIENCE”[Journal]) OR “CHEMICAL SOCIETY REVIEWS”[Journal]) OR “Nature Photonics”[Journal]) OR “NATURE GENETICS”[Journal]) OR “PHYSIOLOGICAL REVIEWS”[Journal]) OR “NATURE MEDICINE”[Journal]) OR “PROGRESS IN POLYMER SCIENCE”[Journal]) OR “Annual Review of Biochemistry”[Journal]) OR “NATURE METHODS”[Journal]) OR “PROGRESS IN MATERIALS SCIENCE”[Journal]) OR “NATURE IMMUNOLOGY”[Journal]) OR “SURFACE SCIENCE REPORTS”[Journal]) OR “ACCOUNTS OF CHEMICAL RESEARCH”[Journal]) OR “Annual Review of Astronomy and Astrophysics”[Journal]) OR “CANCER CELL”[Journal]) OR “NATURE REVIEWS MICROBIOLOGY”[Journal]) OR “Nature Chemistry”[Journal]) OR “Annual Review of Neuroscience”[Journal]) OR “Cell Stem Cell”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “Nature Physics”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Cell and Developmental Biology”[Journal]) OR “NATURE CELL BIOLOGY”[Journal]) OR “IMMUNITY”[Journal]) OR “ENDOCRINE REVIEWS”[Journal]) OR “Annual Review of Plant Biology”[Journal]) OR “PHARMACOLOGICAL REVIEWS”[Journal]) OR “Annual Review of Pharmacology and Toxicology”[Journal]) OR “Nano Today”[Journal]) OR “Annual Review of Genetics”[Journal]) OR “ADVANCES IN PHYSICS”[Journal]) OR “PROGRESS IN ENERGY AND COMBUSTION SCIENCE”[Journal]) OR “Cell Metabolism”[Journal]) OR “Annual Review of Marine Science”[Journal]) OR “ALDRICHIMICA ACTA”[Journal]) OR “ANNALS OF INTERNAL MEDICINE”[Journal]) OR “CLINICAL MICROBIOLOGY REVIEWS”[Journal]) OR “NEURON”[Journal]) OR “Cancer Discovery”[Journal]) OR “Nature Reviews Clinical Oncology”[Journal]) OR “Annual Review of Physical Chemistry”[Journal]) OR “Annual Review of Materials Research”[Journal]) OR “Energy &amp; Environmental Science”[Journal]) OR “Annual Review of Medicine”[Journal]) OR “TRENDS IN ECOLOGY &amp; EVOLUTION”[Journal]) OR “JOURNAL OF THE AMERICAN COLLEGE OF CARDIOLOGY”[Journal]) OR “Nature Climate Change”[Journal]) OR “Nature Climate Change”[Journal]) OR “MOLECULAR PSYCHIATRY”[Journal]) OR “NATURE NEUROSCIENCE”[Journal]) OR “CIRCULATION”[Journal]) OR “EUROPEAN HEART JOURNAL”[Journal]) OR “Annual Review of Physiology”[Journal]) OR “MOLECULAR CELL”[Journal]) OR “Science Translational Medicine”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “Advanced Energy Materials”[Journal]) OR “MOLECULAR BIOLOGY AND EVOLUTION”[Journal]) OR “Nature Reviews Neurology”[Journal]) OR “Molecular Systems Biology”[Journal]) OR “PLOS MEDICINE”[Journal]) OR “GASTROENTEROLOGY”[Journal]) AND gene network[Title/Abstract]</p>
-</blockquote>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/paper/">paper</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-how_to_call_mutaion" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/20/how_to_call_mutaion/" class="article-date">
-  	<time datetime="2015-12-20T04:28:47.277Z" itemprop="datePublished">2015-12-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/20/how_to_call_mutaion/">mutaion calling process</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
-<li>bwa</li>
-<li>samtools view</li>
-<li>samtools sort</li>
-<li>samtools mpileup</li>
-<li>perl pileup2base</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/bioinfo/">bioinfo</a></li></ul>
 	</div>
 
       
@@ -724,9 +738,128 @@ TypeError: path is required!
 
 
   
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/08/24/hello-world/" class="article-date">
+  	<time datetime="2015-08-24T12:42:17.249Z" itemprop="datePublished">2015-08-24</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/08/24/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-new-them" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/08/24/new-them/" class="article-date">
+  	<time datetime="2015-08-24T07:40:03.000Z" itemprop="datePublished">2015-08-24</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/08/24/new-them/">new them</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>[toc]<br><!-- toc --></p>
+<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><blockquote>
+<p>hello</p>
+</blockquote>
+<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">100</span>):</span><br><span class="line">	<span class="keyword">print</span> i</span><br></pre></td></tr></table></figure>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">plot(<span class="number">1</span>:<span class="number">100</span>)</span><br><span class="line">a &lt;- read.table(<span class="string">"table.txt"</span>)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
     </nav>
   
 </div>

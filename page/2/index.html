@@ -108,7 +108,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/Bio/" style="font-size: 10px;">Bio</a> <a href="/tags/R/" style="font-size: 12px;">R</a> <a href="/tags/bioinfo/" style="font-size: 10px;">bioinfo</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coding/" style="font-size: 20px;">coding</a> <a href="/tags/daily/" style="font-size: 10px;">daily</a> <a href="/tags/date/" style="font-size: 10px;">date</a> <a href="/tags/geek/" style="font-size: 10px;">geek</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/javascript/" style="font-size: 16px;">javascript</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/math/" style="font-size: 14px;">math</a> <a href="/tags/nodejs/" style="font-size: 12px;">nodejs</a> <a href="/tags/note/" style="font-size: 10px;">note</a> <a href="/tags/paper/" style="font-size: 10px;">paper</a> <a href="/tags/rust/" style="font-size: 10px;">rust</a> <a href="/tags/tech/" style="font-size: 18px;">tech</a> <a href="/tags/test/" style="font-size: 10px;">test</a> <a href="/tags/tools/" style="font-size: 10px;">tools</a> <a href="/tags/vim/" style="font-size: 14px;">vim</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
+						<a href="/tags/Bio/" style="font-size: 10px;">Bio</a> <a href="/tags/R/" style="font-size: 12px;">R</a> <a href="/tags/bioinfo/" style="font-size: 10px;">bioinfo</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/code/" style="font-size: 10px;">code</a> <a href="/tags/coding/" style="font-size: 20px;">coding</a> <a href="/tags/daily/" style="font-size: 10px;">daily</a> <a href="/tags/date/" style="font-size: 10px;">date</a> <a href="/tags/first/" style="font-size: 10px;">first</a> <a href="/tags/geek/" style="font-size: 10px;">geek</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/javascript/" style="font-size: 16px;">javascript</a> <a href="/tags/learn/" style="font-size: 10px;">learn</a> <a href="/tags/life/" style="font-size: 10px;">life</a> <a href="/tags/linux/" style="font-size: 10px;">linux</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/math/" style="font-size: 14px;">math</a> <a href="/tags/nodejs/" style="font-size: 12px;">nodejs</a> <a href="/tags/note/" style="font-size: 10px;">note</a> <a href="/tags/paper/" style="font-size: 10px;">paper</a> <a href="/tags/rust/" style="font-size: 10px;">rust</a> <a href="/tags/tech/" style="font-size: 18px;">tech</a> <a href="/tags/test/" style="font-size: 10px;">test</a> <a href="/tags/tools/" style="font-size: 10px;">tools</a> <a href="/tags/vim/" style="font-size: 14px;">vim</a> <a href="/tags/web/" style="font-size: 10px;">web</a>
 					</div>
 				</section>
 				
@@ -171,6 +171,221 @@
 	</div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-flow-cytometry-lmd2fcs" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/28/flow-cytometry-lmd2fcs/" class="article-date">
+  	<time datetime="2015-12-28T11:26:56.000Z" itemprop="datePublished">2015-12-28</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/28/flow-cytometry-lmd2fcs/">Beckman流式细胞仪数据lmd格式转fcs格式</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="u65B9_u6CD5_u4E00_3A_R_u8BED_u8A00_u5305flowcore"><a href="#u65B9_u6CD5_u4E00_3A_R_u8BED_u8A00_u5305flowcore" class="headerlink" title="方法一: R语言包flowcore"></a>方法一: R语言包flowcore</h1><figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># install</span></span><br><span class="line"><span class="keyword">source</span>(<span class="string">"http://bioconductor.org/biocLite.R"</span>)</span><br><span class="line">biocLite(<span class="string">"flowCore"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># convert</span></span><br><span class="line"><span class="keyword">library</span>(flowCore)</span><br><span class="line">x &lt;- read.FCS(in.fname) <span class="comment">#in.fname=xxx.lmd</span></span><br><span class="line">write.FCS(x,out.fname) <span class="comment">#in.fname=xxx.fcs</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#批量lmd转化为fcs</span></span><br><span class="line"><span class="keyword">library</span>(flowCore)</span><br><span class="line"><span class="keyword">library</span>(tools)</span><br><span class="line"></span><br><span class="line">files &lt;- list.files(<span class="string">"./"</span>)</span><br><span class="line"></span><br><span class="line">lmd2fcs &lt;- <span class="keyword">function</span>(fi)&#123;</span><br><span class="line">    x &lt;- read.FCS(fi)</span><br><span class="line">    write.FCS(x,paste0(file_path_sans_ext(fi),<span class="string">".fcs"</span>))</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">lapply(files, lmd2fcs)</span><br><span class="line"></span><br><span class="line">lmd2csv &lt;- <span class="keyword">function</span>(fi)&#123;</span><br><span class="line">    x &lt;- read.FCS(fi)</span><br><span class="line">    write.csv(summary(x),file=paste0(file_path_sans_ext(fi),<span class="string">".summary.csv"</span>))</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">lapply(files, lmd2csv)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Bio/">Bio</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/R/">R</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-vim-tip-2" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/27/vim-tip-2/" class="article-date">
+  	<time datetime="2015-12-27T15:41:23.000Z" itemprop="datePublished">2015-12-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/27/vim-tip-2/">随手记录点vim技巧(二)</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>Q: 删除到/插入到/移动到 行首怎么搞?</p>
+</blockquote>
+<ul>
+<li>有N种方法</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th style="text-align:center">按键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>移动到行首</td>
+<td style="text-align:center"><code>(</code>  <code>^</code> <code>0</code></td>
+</tr>
+<tr>
+<td>移动到行尾</td>
+<td style="text-align:center"><code>)</code>  <code>$</code></td>
+</tr>
+<tr>
+<td>插入到行首</td>
+<td style="text-align:center"><code>I</code></td>
+</tr>
+<tr>
+<td>插入到行尾</td>
+<td style="text-align:center"><code>A</code></td>
+</tr>
+<tr>
+<td>删除到行首</td>
+<td style="text-align:center"><code>d(</code></td>
+</tr>
+<tr>
+<td>删除到行尾</td>
+<td style="text-align:center"><code>d)</code> <code>D</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>最规范的还是行用() 段用{}</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
+    <article id="post-vim-tip-1" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/12/27/vim-tip-1/" class="article-date">
+  	<time datetime="2015-12-27T05:41:23.000Z" itemprop="datePublished">2015-12-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/12/27/vim-tip-1/">随手记录点vim技巧(一)</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么办?</p>
+</blockquote>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#&#24320;&#21551;&#31896;&#36148;&#27169;&#24335;&#10;:set paste</span><br></pre></td></tr></table></figure>
+<ul>
+<li>粘贴(paste)</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#&#20851;&#38381;&#31896;&#36148;&#27169;&#24335;&#10;:set nopaste</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
   
     <article id="post-vim-tip" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -628,208 +843,9 @@
 
 
   
-    <article id="post-express-node-begin" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/23/express-node-begin/" class="article-date">
-  	<time datetime="2015-12-23T06:42:59.000Z" itemprop="datePublished">2015-12-23</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/23/express-node-begin/">node.js学习笔记(三)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528"><a href="#u7528node_u7684express_u63D2_u4EF6_u521B_u5EFA_u5E94_u7528" class="headerlink" title="用node的express插件创建应用"></a>用node的express插件创建应用</h1><ul>
-<li>创建项目环境</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir myapp</span><br><span class="line">$ <span class="built_in">cd</span> myapp</span><br><span class="line">$ npm install express --save</span><br><span class="line">$ vim app.js</span><br></pre></td></tr></table></figure>
-<ul>
-<li>编写javascript脚本</li>
-</ul>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//app.js 内容</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> express = <span class="built_in">require</span>(<span class="string">'express'</span>)</span><br><span class="line"><span class="keyword">var</span> app = express()</span><br><span class="line"></span><br><span class="line">app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.send(<span class="string">'Hello World!'</span>)</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> server = app.listen(<span class="number">3000</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> host = server.address().address</span><br><span class="line">  <span class="keyword">var</span> port = server.address().port</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">'Example app listening at http://%s:%s'</span>, host, port)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>启动服务,监听3000端口<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node app.js</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-linux-for-beginer-from-a-beginer" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/22/linux-for-beginer-from-a-beginer/" class="article-date">
-  	<time datetime="2015-12-22T05:47:48.000Z" itemprop="datePublished">2015-12-22</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/22/linux-for-beginer-from-a-beginer/">linux_for_beginer_from_a_beginer</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>这不是一份系统的教程, 也不是科学的入门方案, 只是希望能让刚接触linux的人少点困惑.</p>
-</blockquote>
-<p>linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过来也是一样的.</p>
-<p><em>不过,别问我linux怎么上QQ, 基本没有很好的方案.</em></p>
-<h1 id="u6587_u4EF6_u64CD_u4F5C"><a href="#u6587_u4EF6_u64CD_u4F5C" class="headerlink" title="文件操作"></a>文件操作</h1><p>windows下做得最多的文件操作无非是”打开”,”复制”,”粘贴”,”重命名”.<br>linux下的对应关系</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"打开文件夹"</span> == <span class="string">"ls"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子一: 打开当前文件夹</li>
-</ul>
-<p><img src="/images/linux_b1.png" alt="打开"></p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"复制+粘贴"</span> == <span class="string">"cp"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子二: 复制hehe.txt文件,并粘贴为haha.txt</li>
-</ul>
-<p><img src="/images/linux_b2.png" alt="复制"></p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"重命名/移动"</span> == <span class="string">"mv"</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>例子三: 将haha.txt重命名为hello.txt</li>
-</ul>
-<p><img src="/images/linux_b3.png" alt="重命名"></p>
-<p>虽然这些命令都是两个字符能搞定的, 但是后面得输入很长的一串文件名, 熟练使用windows的人一定会觉得效率太低.<br>不过这里面涉及到linux的哲学: <strong>“一切都是对象”</strong>, 可以勉强的理解为所有的东西都是可以操作的, 这是linux和windows比较大的区别. 因为这里说的 <strong>“一切”</strong> 包括了复制粘贴命名本身. 看下面这里例子基本可以说明问题.</p>
-<ul>
-<li>例子四: 批量添加前缀<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...</span></span><br><span class="line"><span class="comment">#在linux系统, 因为重命名本身是可以被操作的, 所以你就可以用一个循环来实现重命名, 甚至对重命名命令本身进行修改</span></span><br><span class="line"><span class="comment">#为了方便理解可以用如下命令, *事实上linux有更方便的命令来实现这个事情*, 十几分钟的事情可以在十几秒内完成.</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> *.txt; <span class="keyword">do</span> mv <span class="variable">$i</span> <span class="string">"beginer-"</span><span class="variable">$i</span>;<span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><img src="/images/linux_b4.png" alt="批量操作"></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
-    <article id="post-learn-nodejs-note-2" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/22/learn-nodejs-note-2/" class="article-date">
-  	<time datetime="2015-12-21T16:09:42.000Z" itemprop="datePublished">2015-12-22</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/22/learn-nodejs-note-2/">node.js学习笔记(二)</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B"><a href="#u7F51_u9875_u7AEF_u7684javascript_u548C_u670D_u52A1_u7AEF_u7684nodejs_u7684_u533A_u522B" class="headerlink" title="网页端的javascript和服务端的nodejs的区别"></a>网页端的javascript和服务端的nodejs的区别</h1><h2 id="u7F51_u9875_u7AEF"><a href="#u7F51_u9875_u7AEF" class="headerlink" title="网页端"></a>网页端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> **<span class="attribute">Uncaught</span> <span class="attribute">ReferenceError:</span> <span class="attribute">global</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span>(…)**</span></span></span><br></pre></td></tr></table></figure>
-<h2 id="u670D_u52A1_u7AEF"><a href="#u670D_u52A1_u7AEF" class="headerlink" title="服务端"></a>服务端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span><br><span class="line">&gt;</span>  window.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">ReferenceError:</span> <span class="attribute">window</span> <span class="attribute">is</span> <span class="attribute">not</span> <span class="attribute">defined</span></span><br><span class="line">&gt;</span>  global.a</span><br><span class="line"><span class="tag">&lt;<span class="title">.</span> <span class="attribute">1</span></span></span></span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/coding/">coding</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/nodejs/">nodejs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
     </nav>
   
 </div>
