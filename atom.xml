@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-04T14:44:25.251Z</updated>
+  <updated>2016-07-04T14:39:15.519Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,23 +15,10 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[hello2]]></title>
-    <link href="http://yoursite.com/2016/07/04/hello2/"/>
-    <id>http://yoursite.com/2016/07/04/hello2/</id>
-    <published>2016-07-04T14:44:03.000Z</published>
-    <updated>2016-07-04T14:44:25.251Z</updated>
-    <content type="html"><![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[top100 Journal for pubmed advance search]]></title>
-    <link href="http://yoursite.com/2016/07/04/top100_journal_for_pubmed/"/>
-    <id>http://yoursite.com/2016/07/04/top100_journal_for_pubmed/</id>
-    <published>2016-07-04T14:39:15.519Z</published>
+    <link href="http://yoursite.com/2016/11/13/top100_journal_for_pubmed/"/>
+    <id>http://yoursite.com/2016/11/13/top100_journal_for_pubmed/</id>
+    <published>2016-11-13T12:23:51.113Z</published>
     <updated>2016-07-04T14:39:15.519Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((“CA-A CANCER JOURNAL FOR CLINICIANS”[Journal] OR “CHEMICAL REVIEWS”[Journal]) OR “REVIEWS OF MODERN PHYSICS”[Journal]) OR “NATURE”[Journal]) OR “Annual Review of Immunology”[Journal]) OR “NATURE REVIEWS GENETICS”[Journal]) OR “LANCET”[Journal]) OR “NATURE BIOTECHNOLOGY”[Journal]) OR “NATURE REVIEWS CANCER”[Journal]) OR “NATURE REVIEWS DRUG DISCOVERY”[Journal]) OR “NATURE REVIEWS MOLECULAR CELL BIOLOGY”[Journal]) OR “NATURE MATERIALS”[Journal]) OR “NATURE REVIEWS IMMUNOLOGY”[Journal]) OR “Nature Nanotechnology”[Journal]) OR “CELL”[Journal]) OR “SCIENCE”[Journal]) OR “NATURE REVIEWS NEUROSCIENCE”[Journal]) OR “CHEMICAL SOCIETY REVIEWS”[Journal]) OR “Nature Photonics”[Journal]) OR “NATURE GENETICS”[Journal]) OR “PHYSIOLOGICAL REVIEWS”[Journal]) OR “NATURE MEDICINE”[Journal]) OR “PROGRESS IN POLYMER SCIENCE”[Journal]) OR “Annual Review of Biochemistry”[Journal]) OR “NATURE METHODS”[Journal]) OR “PROGRESS IN MATERIALS SCIENCE”[Journal]) OR “NATURE IMMUNOLOGY”[Journal]) OR “SURFACE SCIENCE REPORTS”[Journal]) OR “ACCOUNTS OF CHEMICAL RESEARCH”[Journal]) OR “Annual Review of Astronomy and Astrophysics”[Journal]) OR “CANCER CELL”[Journal]) OR “NATURE REVIEWS MICROBIOLOGY”[Journal]) OR “Nature Chemistry”[Journal]) OR “Annual Review of Neuroscience”[Journal]) OR “Cell Stem Cell”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “TRENDS IN COGNITIVE SCIENCES”[Journal]) OR “Nature Physics”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Psychology”[Journal]) OR “Annual Review of Cell and Developmental Biology”[Journal]) OR “NATURE CELL BIOLOGY”[Journal]) OR “IMMUNITY”[Journal]) OR “ENDOCRINE REVIEWS”[Journal]) OR “Annual Review of Plant Biology”[Journal]) OR “PHARMACOLOGICAL REVIEWS”[Journal]) OR “Annual Review of Pharmacology and Toxicology”[Journal]) OR “Nano Today”[Journal]) OR “Annual Review of Genetics”[Journal]) OR “ADVANCES IN PHYSICS”[Journal]) OR “PROGRESS IN ENERGY AND COMBUSTION SCIENCE”[Journal]) OR “Cell Metabolism”[Journal]) OR “Annual Review of Marine Science”[Journal]) OR “ALDRICHIMICA ACTA”[Journal]) OR “ANNALS OF INTERNAL MEDICINE”[Journal]) OR “CLINICAL MICROBIOLOGY REVIEWS”[Journal]) OR “NEURON”[Journal]) OR “Cancer Discovery”[Journal]) OR “Nature Reviews Clinical Oncology”[Journal]) OR “Annual Review of Physical Chemistry”[Journal]) OR “Annual Review of Materials Research”[Journal]) OR “Energy &amp; Environmental Science”[Journal]) OR “Annual Review of Medicine”[Journal]) OR “TRENDS IN ECOLOGY &amp; EVOLUTION”[Journal]) OR “JOURNAL OF THE AMERICAN COLLEGE OF CARDIOLOGY”[Journal]) OR “Nature Climate Change”[Journal]) OR “Nature Climate Change”[Journal]) OR “MOLECULAR PSYCHIATRY”[Journal]) OR “NATURE NEUROSCIENCE”[Journal]) OR “CIRCULATION”[Journal]) OR “EUROPEAN HEART JOURNAL”[Journal]) OR “Annual Review of Physiology”[Journal]) OR “MOLECULAR CELL”[Journal]) OR “Science Translational Medicine”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “PSYCHOLOGICAL BULLETIN”[Journal]) OR “Advanced Energy Materials”[Journal]) OR “MOLECULAR BIOLOGY AND EVOLUTION”[Journal]) OR “Nature Reviews Neurology”[Journal]) OR “Molecular Systems Biology”[Journal]) OR “PLOS MEDICINE”[Journal]) OR “GASTROENTEROLOGY”[Journal]) AND gene network[Title/Abstract]</p>
@@ -47,10 +34,35 @@
   </entry>
   
   <entry>
+    <title><![CDATA[mutaion calling process]]></title>
+    <link href="http://yoursite.com/2016/11/13/how_to_call_mutaion/"/>
+    <id>http://yoursite.com/2016/11/13/how_to_call_mutaion/</id>
+    <published>2016-11-13T12:23:51.037Z</published>
+    <updated>2016-07-04T14:39:15.515Z</updated>
+    <content type="html"><![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools sort</li>
+<li>samtools mpileup</li>
+<li>perl pileup2base</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
+<li>bwa</li>
+<li>samtools view</li>
+<li>samtools]]>
+    </summary>
+    
+      <category term="bioinfo" scheme="http://yoursite.com/tags/bioinfo/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[convolution 和 cross-correlation的区别]]></title>
-    <link href="http://yoursite.com/2016/07/04/convolution_and_cross-correlation/"/>
-    <id>http://yoursite.com/2016/07/04/convolution_and_cross-correlation/</id>
-    <published>2016-07-04T14:39:15.515Z</published>
+    <link href="http://yoursite.com/2016/11/13/convolution_and_cross-correlation/"/>
+    <id>http://yoursite.com/2016/11/13/convolution_and_cross-correlation/</id>
+    <published>2016-11-13T12:23:50.997Z</published>
     <updated>2016-07-04T14:39:15.515Z</updated>
     <content type="html"><![CDATA[<h1 id="u8BA1_u7B97_u51FD_u6570_3A"><a href="#u8BA1_u7B97_u51FD_u6570_3A" class="headerlink" title="计算函数:"></a>计算函数:</h1><ul>
 <li><p>卷积(convolution)<br><img src="/images/convolution_func.png" alt="卷积函数"></p>
@@ -78,27 +90,37 @@
   </entry>
   
   <entry>
-    <title><![CDATA[mutaion calling process]]></title>
-    <link href="http://yoursite.com/2016/07/04/how_to_call_mutaion/"/>
-    <id>http://yoursite.com/2016/07/04/how_to_call_mutaion/</id>
-    <published>2016-07-04T14:39:15.515Z</published>
-    <updated>2016-07-04T14:39:15.515Z</updated>
-    <content type="html"><![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
-<li>bwa</li>
-<li>samtools view</li>
-<li>samtools sort</li>
-<li>samtools mpileup</li>
-<li>perl pileup2base</li>
-</ul>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2016/11/13/hello-world/"/>
+    <id>http://yoursite.com/2016/11/13/hello-world/</id>
+    <published>2016-11-13T12:23:50.565Z</published>
+    <updated>2015-08-24T10:18:55.499Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="process"><a href="#process" class="headerlink" title="process"></a>process</h1><ul>
-<li>bwa</li>
-<li>samtools view</li>
-<li>samtools]]>
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
     </summary>
     
-      <category term="bioinfo" scheme="http://yoursite.com/tags/bioinfo/"/>
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hello2]]></title>
+    <link href="http://yoursite.com/2016/07/04/hello2/"/>
+    <id>http://yoursite.com/2016/07/04/hello2/</id>
+    <published>2016-07-04T14:44:03.000Z</published>
+    <updated>2016-07-04T14:44:25.251Z</updated>
+    <content type="html"><![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="try_agian"><a href="#try_agian" class="headerlink" title="try agian"></a>try agian</h2>]]>
+    </summary>
     
   </entry>
   
@@ -573,43 +595,6 @@
       <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
     
       <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[各种乱七八糟的“引擎”是干嘛的]]></title>
-    <link href="http://yoursite.com/2015/12/25/web-engines/"/>
-    <id>http://yoursite.com/2015/12/25/web-engines/</id>
-    <published>2015-12-24T17:39:39.000Z</published>
-    <updated>2016-07-04T14:39:15.519Z</updated>
-    <content type="html"><![CDATA[<h1 id="Web_engines"><a href="#Web_engines" class="headerlink" title="Web engines"></a>Web engines</h1><p>web engines 拓展了html/css的功能，相当于“正则化”的模板</p>
-<h2 id="html_engines"><a href="#html_engines" class="headerlink" title="html engines"></a>html engines</h2><blockquote>
-<p>Web模板         —-生成html</p>
-</blockquote>
-<ul>
-<li>ejs</li>
-<li>Jade</li>
-<li>Handlebars</li>
-<li>Markdown （勉强也能算…）</li>
-</ul>
-<h2 id="css_engines__28StyleSheet_engines_29"><a href="#css_engines__28StyleSheet_engines_29" class="headerlink" title="css engines (StyleSheet engines)"></a>css engines (StyleSheet engines)</h2><blockquote>
-<p>CSS预处理语言   —-生成CSS</p>
-</blockquote>
-<ul>
-<li>LESS</li>
-<li>Sass(SCSS)</li>
-<li>Stylus</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="Web_engines"><a href="#Web_engines" class="headerlink" title="Web engines"></a>Web engines</h1><p>web engines 拓展了html/css的功能，相当于“正则化]]>
-    </summary>
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
-    
-      <category term="web" scheme="http://yoursite.com/tags/web/"/>
     
   </entry>
   
