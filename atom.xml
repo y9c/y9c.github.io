@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-04T14:39:15.519Z</updated>
+  <updated>2016-11-23T06:04:38.397Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[surfingkey config vimmiun like]]></title>
+    <link href="http://yoursite.com/2016/11/23/surfingkey-config-vimmiun-like/"/>
+    <id>http://yoursite.com/2016/11/23/surfingkey-config-vimmiun-like/</id>
+    <published>2016-11-23T06:02:42.000Z</published>
+    <updated>2016-11-23T06:04:38.397Z</updated>
+    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// mapping like vimum</span></span><br><span class="line">map(<span class="string">'u'</span>, <span class="string">'e'</span>);</span><br><span class="line">mapkey(<span class="string">'p'</span>, <span class="string">"Open the clipboard's URL in the current tab"</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    Front.getContentFromClipboard(<span class="function"><span class="keyword">function</span>(<span class="params">response</span>) </span>&#123;</span><br><span class="line">        <span class="built_in">window</span>.location.href = response.data;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br><span class="line">map(<span class="string">'P'</span>, <span class="string">'cc'</span>);</span><br><span class="line">map(<span class="string">'gi'</span>, <span class="string">'i'</span>);</span><br><span class="line">map(<span class="string">'F'</span>, <span class="string">'af'</span>);</span><br><span class="line">map(<span class="string">'gf'</span>, <span class="string">'w'</span>);</span><br><span class="line">map(<span class="string">'`'</span>, <span class="string">'\''</span>);</span><br><span class="line"><span class="comment">// save default key `t` to temp key `&gt;_t`</span></span><br><span class="line">map(<span class="string">'&gt;_t'</span>, <span class="string">'t'</span>);</span><br><span class="line"><span class="comment">// create a new key `t` for default key `on`</span></span><br><span class="line">map(<span class="string">'t'</span>, <span class="string">'on'</span>);</span><br><span class="line"><span class="comment">// create a new key `o` for saved temp key `&gt;_t`</span></span><br><span class="line">map(<span class="string">'o'</span>, <span class="string">'&gt;_t'</span>);</span><br><span class="line">map(<span class="string">'H'</span>, <span class="string">'S'</span>);</span><br><span class="line">map(<span class="string">'L'</span>, <span class="string">'D'</span>);</span><br><span class="line">map(<span class="string">'gt'</span>, <span class="string">'R'</span>);</span><br><span class="line">map(<span class="string">'gT'</span>, <span class="string">'E'</span>);</span><br><span class="line">map(<span class="string">'K'</span>, <span class="string">'R'</span>);</span><br><span class="line">map(<span class="string">'J'</span>, <span class="string">'E'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// using numbers for follow links</span></span><br><span class="line">Hints.characters = <span class="string">'1234567890'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// smooth scrolling</span></span><br><span class="line">settings.smoothScroll = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// styles</span></span><br><span class="line">Hints.style(<span class="string">'border: solid 3px #3a5f82; color:#fff; background: initial; background-color: #3a5f82; font-size: 10pt;'</span>);</span><br><span class="line">Visual.style(<span class="string">'marks'</span>, <span class="string">'background-color: #89a1e2;'</span>);</span><br><span class="line">Visual.style(<span class="string">'cursor'</span>, <span class="string">'background-color: #6590b7;'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// click `Save` button to make above settings to take effect.</span></span><br><span class="line"><span class="comment">// set theme</span></span><br><span class="line">settings.theme = <span class="string">'\</span><br><span class="line">.sk_theme &#123; \</span><br><span class="line">    background: #fff; \</span><br><span class="line">    color: #000; \</span><br><span class="line">    font-size: 12pt; \</span><br><span class="line">&#125; \</span><br><span class="line">.sk_theme tbody &#123; \</span><br><span class="line">    color: #000; \</span><br><span class="line">&#125; \</span><br><span class="line">.sk_theme input &#123; \</span><br><span class="line">    color: #000; \</span><br><span class="line">&#125; \</span><br><span class="line">.sk_theme .url &#123; \</span><br><span class="line">    color: #555; \</span><br><span class="line">&#125; \</span><br><span class="line">.sk_theme .annotation &#123; \</span><br><span class="line">    color: #555; \</span><br><span class="line">&#125; \</span><br><span class="line">.sk_theme .focused &#123; \</span><br><span class="line">    background: #f0f0f0; \</span><br><span class="line">&#125;'</span>;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span ]]>
+    </summary>
+    
+      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[top100 Journal for pubmed advance search]]></title>
@@ -539,62 +555,6 @@
       <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
     
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[常用的前端框架]]></title>
-    <link href="http://yoursite.com/2015/12/25/fontend-js-framework/"/>
-    <id>http://yoursite.com/2015/12/25/fontend-js-framework/</id>
-    <published>2015-12-25T02:54:10.000Z</published>
-    <updated>2016-07-04T14:39:15.519Z</updated>
-    <content type="html"><![CDATA[<h1 id="u524D_u7AEF_u6846_u67B6"><a href="#u524D_u7AEF_u6846_u67B6" class="headerlink" title="前端框架"></a>前端框架</h1><blockquote>
-<p>MVVM, MVC 什么的还不清楚…</p>
-</blockquote>
-<ul>
-<li>angular</li>
-<li>vue</li>
-<li>react</li>
-<li>ant-design</li>
-<li>jQuery</li>
-<li>extjs</li>
-<li>zepto</li>
-</ul>
-<blockquote>
-<p>jQuery jQueryUI : javascript框架和前端框架不是一个东西?</p>
-</blockquote>
-<p>##转</p>
-<blockquote>
-<p>infoQ</p>
-</blockquote>
-<ul>
-<li>Backbone.js: Provides models with key-value binding and custom events, collections, and connects it all to your existing API over a RESTful JSON interface.</li>
-<li>AngularJS: A toolset based on extending the HTML vocabulary for your application.</li>
-<li>Ember.js: Provides template written in the Handlebars templating language, views, controllers, models and a router.</li>
-<li>Knockout: Aims to simplify JavaScript UIs by applying the Model-View-View Model (MVVM) pattern.</li>
-<li>Agility.js: Aims to let developers write maintainable and reusable browser code without the verbose or infrastructural overhead found in other MVC libraries.</li>
-<li>CanJS: Focuses on striking a balance between size, ease of use, safety, speed and flexibility.</li>
-<li>Spine: A lightweight framework that strives to have the most friendly documentation for any JavaScript framework available.</li>
-<li>Maria: Based on the original MVC flavor as it was used in Smalltalk - aka “the Gang of Four MVC”.</li>
-<li>ExtJS: Amongst other things offers plugin-free charting, and modern UI widgets.</li>
-<li>Sammy.js: A small JavaScript framework developed to provide a basic structure for developing JavaScript applications.</li>
-<li>Stapes.js: A tiny framework that aims to be easy to fit in an existing codebase, and because of its size it’s suitable for mobile development.</li>
-<li>Epitome: Epitome is a MVC* (MVP) framework for MooTools.</li>
-<li>soma.js: Tries help developers to write loosely-coupled applications to increase scalability and maintainability.</li>
-<li>PlastronJS: MVC framework for Closure Library and Closure Compiler.</li>
-<li>rAppid.js: Lets you encapsulate complexity into components which can be easy used like HTML elements in your application.</li>
-<li>Serenade.js: Tries to follow the ideas of classical MVC than competing frameworks.</li>
-<li>Kendo UI: Combines jQuery-based widgets, an MVVM framework, themes, templates, and more.</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u524D_u7AEF_u6846_u67B6"><a href="#u524D_u7AEF_u6846_u67B6" class="headerlink" title="前端框架"></a>前端框架</h1><blockquote>
-<p>MVVM, MVC 什]]>
-    </summary>
-    
-      <category term="coding" scheme="http://yoursite.com/tags/coding/"/>
-    
-      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
