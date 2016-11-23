@@ -427,17 +427,17 @@
 <p>linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过来也是一样的.</p>
 <p><em>不过,别问我linux怎么上QQ, 基本没有很好的方案.</em></p>
 <h1 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h1><p>windows下做得最多的文件操作无非是”打开”,”复制”,”粘贴”,”重命名”.<br>linux下的对应关系</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"打开文件夹"</span> == <span class="string">"ls"</span></div></pre></td></tr></table></figure>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"打开文件夹"</span> == <span class="string">"ls"</span></div></pre></td></tr></table></figure>
 <ul>
 <li>例子一: 打开当前文件夹</li>
 </ul>
 <p><img src="/images/linux_b1.png" alt="打开"></p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"复制+粘贴"</span> == <span class="string">"cp"</span></div></pre></td></tr></table></figure>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"复制+粘贴"</span> == <span class="string">"cp"</span></div></pre></td></tr></table></figure>
 <ul>
 <li>例子二: 复制hehe.txt文件,并粘贴为haha.txt</li>
 </ul>
 <p><img src="/images/linux_b2.png" alt="复制"></p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"重命名/移动"</span> == <span class="string">"mv"</span></div></pre></td></tr></table></figure>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="string">"重命名/移动"</span> == <span class="string">"mv"</span></div></pre></td></tr></table></figure>
 <ul>
 <li>例子三: 将haha.txt重命名为hello.txt</li>
 </ul>
@@ -456,6 +456,32 @@
       <url>http://yech1990.github.io/2015/12/22/learn-nodejs-note-2/</url>
       <content type="html"><![CDATA[<h1 id="网页端的javascript和服务端的nodejs的区别"><a href="#网页端的javascript和服务端的nodejs的区别" class="headerlink" title="网页端的javascript和服务端的nodejs的区别"></a>网页端的javascript和服务端的nodejs的区别</h1><h2 id="网页端"><a href="#网页端" class="headerlink" title="网页端"></a>网页端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></span></div><div class="line">&gt;  a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></div><div class="line">&gt;  window.a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></div><div class="line">&gt;  global.a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> **<span class="attr">Uncaught</span> <span class="attr">ReferenceError:</span> <span class="attr">global</span> <span class="attr">is</span> <span class="attr">not</span> <span class="attr">defined</span>(…)**</span></div></pre></td></tr></table></figure>
 <h2 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&gt;  <span class="keyword">var</span> a = <span class="number">1</span>;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></span></div><div class="line">&gt;  a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></div><div class="line">&gt;  window.a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> <span class="attr">ReferenceError:</span> <span class="attr">window</span> <span class="attr">is</span> <span class="attr">not</span> <span class="attr">defined</span></span></div><div class="line">&gt;  global.a</div><div class="line"><span class="tag">&lt;<span class="name">.</span> <span class="attr">1</span></span></div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[node.js学习笔记(一)]]></title>
+      <url>http://yech1990.github.io/2015/12/21/learn-nodejs-note/</url>
+      <content type="html"><![CDATA[<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><blockquote>
+<p>两种,类似python</p>
+</blockquote>
+<ul>
+<li>命令行交互</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ node</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="built_in">console</span>.log(<span class="string">"Hello World"</span>);</div></pre></td></tr></table></figure>
+<ul>
+<li>文件运行(无需编译)</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">echo</span> <span class="string">'console.log("Hello World")'</span> &gt; helloworld.js</div><div class="line">$ node helloworld.js</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="函数传递"><a href="#函数传递" class="headerlink" title="函数传递"></a>函数传递</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">say</span>(<span class="params">world</span>)</span>&#123;</div><div class="line"> <span class="built_in">console</span>.log(world);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</div><div class="line"> someFunction(value)</div><div class="line">&#125;</div><div class="line"></div><div class="line">execute(say,<span class="string">"Hello YC"</span>);</div></pre></td></tr></table></figure>
+<p>等价于</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</div><div class="line"> someFunction(value)</div><div class="line">&#125;</div><div class="line"></div><div class="line">execute(<span class="function"><span class="keyword">function</span>(<span class="params">word</span>)</span>&#123;<span class="built_in">console</span>.log(word)&#125;,<span class="string">"Hello YC"</span>);</div></pre></td></tr></table></figure>
+<p>其中say()函数不需要命名,作为匿名函数</p>
+<h1 id="模块调用"><a href="#模块调用" class="headerlink" title="模块调用"></a>模块调用</h1><h2 id="server-js"><a href="#server-js" class="headerlink" title="server.js"></a>server.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">start</span>(<span class="params"></span>) </span>&#123;</div><div class="line"> <span class="function"><span class="keyword">function</span> <span class="title">onRequest</span>(<span class="params">request, response</span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">"Request received."</span>);</div><div class="line">  response.writeHead(<span class="number">200</span>, &#123;<span class="string">"Content-Type"</span>: <span class="string">"text/plain"</span>&#125;);</div><div class="line">  response.write(<span class="string">"Hello YC"</span>);</div><div class="line">  response.end();</div><div class="line"> &#125;</div><div class="line"></div><div class="line"> http.createServer(onRequest).listen(<span class="number">8888</span>);</div><div class="line"> <span class="built_in">console</span>.log(<span class="string">"Server has started."</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line">exports.start = start;</div></pre></td></tr></table></figure>
+<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> server = <span class="built_in">require</span>(<span class="string">"./server"</span>);</div><div class="line"></div><div class="line">server.start();</div></pre></td></tr></table></figure>
+<p>直接node index.js 运行，会调用server.js</p>
 ]]></content>
     </entry>
     
@@ -519,32 +545,6 @@
 </tr>
 </tbody>
 </table>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[node.js学习笔记(一)]]></title>
-      <url>http://yech1990.github.io/2015/12/21/learn-nodejs-note/</url>
-      <content type="html"><![CDATA[<h1 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h1><blockquote>
-<p>两种,类似python</p>
-</blockquote>
-<ul>
-<li>命令行交互</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ node</div></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; <span class="built_in">console</span>.log(<span class="string">"Hello World"</span>);</div></pre></td></tr></table></figure>
-<ul>
-<li>文件运行(无需编译)</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">echo</span> <span class="string">'console.log("Hello World")'</span> &gt; helloworld.js</div><div class="line">$ node helloworld.js</div></pre></td></tr></table></figure>
-<hr>
-<h1 id="函数传递"><a href="#函数传递" class="headerlink" title="函数传递"></a>函数传递</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">say</span>(<span class="params">world</span>)</span>&#123;</div><div class="line"> <span class="built_in">console</span>.log(world);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</div><div class="line"> someFunction(value)</div><div class="line">&#125;</div><div class="line"></div><div class="line">execute(say,<span class="string">"Hello YC"</span>);</div></pre></td></tr></table></figure>
-<p>等价于</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">execute</span>(<span class="params">someFunction, value</span>)</span>&#123;</div><div class="line"> someFunction(value)</div><div class="line">&#125;</div><div class="line"></div><div class="line">execute(<span class="function"><span class="keyword">function</span>(<span class="params">word</span>)</span>&#123;<span class="built_in">console</span>.log(word)&#125;,<span class="string">"Hello YC"</span>);</div></pre></td></tr></table></figure>
-<p>其中say()函数不需要命名,作为匿名函数</p>
-<h1 id="模块调用"><a href="#模块调用" class="headerlink" title="模块调用"></a>模块调用</h1><h2 id="server-js"><a href="#server-js" class="headerlink" title="server.js"></a>server.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">start</span>(<span class="params"></span>) </span>&#123;</div><div class="line"> <span class="function"><span class="keyword">function</span> <span class="title">onRequest</span>(<span class="params">request, response</span>) </span>&#123;</div><div class="line">  <span class="built_in">console</span>.log(<span class="string">"Request received."</span>);</div><div class="line">  response.writeHead(<span class="number">200</span>, &#123;<span class="string">"Content-Type"</span>: <span class="string">"text/plain"</span>&#125;);</div><div class="line">  response.write(<span class="string">"Hello YC"</span>);</div><div class="line">  response.end();</div><div class="line"> &#125;</div><div class="line"></div><div class="line"> http.createServer(onRequest).listen(<span class="number">8888</span>);</div><div class="line"> <span class="built_in">console</span>.log(<span class="string">"Server has started."</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line">exports.start = start;</div></pre></td></tr></table></figure>
-<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> server = <span class="built_in">require</span>(<span class="string">"./server"</span>);</div><div class="line"></div><div class="line">server.start();</div></pre></td></tr></table></figure>
-<p>直接node index.js 运行，会调用server.js</p>
 ]]></content>
     </entry>
     
