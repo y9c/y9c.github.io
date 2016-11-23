@@ -318,7 +318,8 @@
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
           方法一: R语言包flowcore12345678# installsource("http://bioconductor.org/biocLite.R")biocLite("flowCore")# convertlibrary(flowCore)x &lt;- read.FCS(in.fname) #in.fname=xxx.lmdwrite.FCS(x,out.fname) #in.fname=xxx.fcs
-12345678910111213141516171819#批量lmd转化为fcslibrary(flowCore)library(tools)files &lt;- list.files("./")lmd2fcs ...
+12345678910111213141516171819#批量lmd转化为fcslibrary(flowCore)library(tools)files &lt;- list.files("./")lmd2fcs &lt;- function(fi)&#123;    x &lt;- read.FCS(fi)    write.FCS(x,paste0(file_path_sans_ext(fi),".fcs"))    &#125;lapply(files, lmd2fcs)lmd2csv &lt;- function(fi)&#123;    x &lt;- read.FCS(fi)    write.csv(summary(x),file=paste0(file_path_sans_ext(fi),".summary.csv"))    &#125;lapply(files, lmd2csv)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>

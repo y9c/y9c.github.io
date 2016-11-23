@@ -350,7 +350,12 @@ Sammy.js: A small JavaScript framework developed to provide a basic structure fo
 Stapes.js: A tiny framework that aims to be easy to fit in an existing codebase, and because of its size it’s suitable for mobile development.
 Epitome: Epitome is a MVC* (MVP) framework for MooTools.
 soma.js: Tries help developers to write loosely-coupled applications to increase scalability and maintainability.
-PlastronJS: MVC framework for Closure Library and Closur...
+PlastronJS: MVC framework for Closure Library and Closure Compiler.
+rAppid.js: Lets you encapsulate complexity into components which can be easy used like HTML elements in your application.
+Serenade.js: Tries to follow the ideas of classical MVC than competing frameworks.
+Kendo UI: Combines jQuery-based widgets, an MVVM framework, themes, templates, and more.
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -488,7 +493,10 @@ Stylus
 Sync in C
 
 1234567891011121314#include &lt;time.h&gt;#include &lt;stdio.h&gt;#include &lt;unistd.h&gt;int main()&#123;    int i;    time_t the_time;    for(i = 1; i &lt;= 10; i++) &#123;        the_time = time((time_t *)0);        printf("The time is %ld\n", the_time);        sleep(2);    &#125;    exit(0);&#125;
-The time is 1396492137The time is 1396492139The time is 1396492141The time is 1396492143The ...
+The time is 1396492137The time is 1396492139The time is 1396492141The time is 1396492143The time is 1396492145The time is 1396492147The time is 1396492149The time is 1396492151The time is 1396492153The time is 1396492155
+Async in javascript1234567function test() &#123;    for (var i = 0; i &lt; 10; i++) &#123;        console.log(new Date);        setTimeout(function()&#123;&#125;, 2000); //睡眠2秒，然后再进行一下次for循环打印    &#125;&#125;;test();
+Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -553,7 +561,12 @@ The time is 1396492137The time is 1396492139The time is 1396492141The time is 13
 
 编写javascript脚本
 
-1234567891011121314//app.js 内容var express = require('express')var app = express()app.get('/', function (req, res) &#123;  res.send('Hello World!')  &#125;)var server = app.listen(3000, function () &#123;  var host = se...
+1234567891011121314//app.js 内容var express = require('express')var app = express()app.get('/', function (req, res) &#123;  res.send('Hello World!')  &#125;)var server = app.listen(3000, function () &#123;  var host = server.address().address  var port = server.address().port  console.log('Example app listening at http://%s:%s', host, port)&#125;)
+
+启动服务,监听3000端口1node app.js
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -634,7 +647,11 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 
 虽然这些命令都是两个字符能搞定的, 但是后面得输入很长的一串文件名, 熟练使用windows的人一定会觉得效率太低.不过这里面涉及到linux的哲学: “一切都是对象”, 可以勉强的理解为所有的东西都是可以操作的, 这是linux和windows比较大的区别. 因为这里说的 “一切” 包括了复制粘贴命名本身. 看下面这里例子基本可以说明问题.
 
-例子四: 批量添加前缀1234#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...#在linux系统, 因为重命名本身是可以被操...
+例子四: 批量添加前缀1234#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...#在linux系统, 因为重命名本身是可以被操作的, 所以你就可以用一个循环来实现重命名, 甚至对重命名命令本身进行修改#为了方便理解可以用如下命令, *事实上linux有更方便的命令来实现这个事情*, 十几分钟的事情可以在十几秒内完成.for i in *.txt; do mv $i "beginer-"$i;done
+
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -693,7 +710,8 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
           网页端的javascript和服务端的nodejs的区别网页端12345678&gt;  var a = 1;&lt;. 1&gt;  a&lt;. 1&gt;  window.a&lt;. 1&gt;  global.a&lt;. **Uncaught ReferenceError: global is not defined(…)**
-服务端12345678&gt;  var a = 1;&lt;. 
+服务端12345678&gt;  var a = 1;&lt;. 1&gt;  a&lt;. 1&gt;  window.a&lt;. ReferenceError: window is not defined&gt;  global.a&lt;. 1
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -764,7 +782,14 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 
 12$ echo 'console.log("Hello World")' &gt; helloworld.js$ node helloworld.js
 
-函数传递123456789function say(world)&#123; console.log(world);&#125;function execute(someFunction, value)&#123; someFunction(value)&#125;
+函数传递123456789function say(world)&#123; console.log(world);&#125;function execute(someFunction, value)&#123; someFunction(value)&#125;execute(say,"Hello YC");
+等价于
+12345function execute(someFunction, value)&#123; someFunction(value)&#125;execute(function(word)&#123;console.log(word)&#125;,"Hello YC");
+其中say()函数不需要命名,作为匿名函数
+模块调用server.js123456789101112131415var http = require("http");function start() &#123; function onRequest(request, response) &#123;  console.log("Request received.");  response.writeHead(200, &#123;"Content-Type": "text/plain"&#125;);  response.write("Hello YC");  response.end(); &#125; http.createServer(onRequest).listen(8888); console.log("Server has started.");&#125;exports.start = start;
+index.js123var server = require("./server");server.start();
+直接node index.js 运行，会调用server.js
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -1012,7 +1037,8 @@ V5.3.0
 perl12#this is a perl codeprint "hello world";
 bash12#this is a bash codeecho "hello world"
 R12#this is a R codeprint("hello world")
-nodejs12//this is a nodejs code
+nodejs12//this is a nodejs codeconsole.log("hello world");
+
         
         &nbsp;&nbsp;&nbsp;
         <span>

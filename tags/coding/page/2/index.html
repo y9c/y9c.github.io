@@ -397,7 +397,10 @@ Stylus
 Sync in C
 
 1234567891011121314#include &lt;time.h&gt;#include &lt;stdio.h&gt;#include &lt;unistd.h&gt;int main()&#123;    int i;    time_t the_time;    for(i = 1; i &lt;= 10; i++) &#123;        the_time = time((time_t *)0);        printf("The time is %ld\n", the_time);        sleep(2);    &#125;    exit(0);&#125;
-The time is 1396492137The time is 1396492139The time is 1396492141The time is 1396492143The ...
+The time is 1396492137The time is 1396492139The time is 1396492141The time is 1396492143The time is 1396492145The time is 1396492147The time is 1396492149The time is 1396492151The time is 1396492153The time is 1396492155
+Async in javascript1234567function test() &#123;    for (var i = 0; i &lt; 10; i++) &#123;        console.log(new Date);        setTimeout(function()&#123;&#125;, 2000); //睡眠2秒，然后再进行一下次for循环打印    &#125;&#125;;test();
+Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)Wed Dec 23 2015 15:27:15 GMT+0800 (CST)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -462,7 +465,12 @@ The time is 1396492137The time is 1396492139The time is 1396492141The time is 13
 
 编写javascript脚本
 
-1234567891011121314//app.js 内容var express = require('express')var app = express()app.get('/', function (req, res) &#123;  res.send('Hello World!')  &#125;)var server = app.listen(3000, function () &#123;  var host = se...
+1234567891011121314//app.js 内容var express = require('express')var app = express()app.get('/', function (req, res) &#123;  res.send('Hello World!')  &#125;)var server = app.listen(3000, function () &#123;  var host = server.address().address  var port = server.address().port  console.log('Example app listening at http://%s:%s', host, port)&#125;)
+
+启动服务,监听3000端口1node app.js
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -521,7 +529,8 @@ The time is 1396492137The time is 1396492139The time is 1396492141The time is 13
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
           网页端的javascript和服务端的nodejs的区别网页端12345678&gt;  var a = 1;&lt;. 1&gt;  a&lt;. 1&gt;  window.a&lt;. 1&gt;  global.a&lt;. **Uncaught ReferenceError: global is not defined(…)**
-服务端12345678&gt;  var a = 1;&lt;. 
+服务端12345678&gt;  var a = 1;&lt;. 1&gt;  a&lt;. 1&gt;  window.a&lt;. ReferenceError: window is not defined&gt;  global.a&lt;. 1
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -592,7 +601,14 @@ The time is 1396492137The time is 1396492139The time is 1396492141The time is 13
 
 12$ echo 'console.log("Hello World")' &gt; helloworld.js$ node helloworld.js
 
-函数传递123456789function say(world)&#123; console.log(world);&#125;function execute(someFunction, value)&#123; someFunction(value)&#125;
+函数传递123456789function say(world)&#123; console.log(world);&#125;function execute(someFunction, value)&#123; someFunction(value)&#125;execute(say,"Hello YC");
+等价于
+12345function execute(someFunction, value)&#123; someFunction(value)&#125;execute(function(word)&#123;console.log(word)&#125;,"Hello YC");
+其中say()函数不需要命名,作为匿名函数
+模块调用server.js123456789101112131415var http = require("http");function start() &#123; function onRequest(request, response) &#123;  console.log("Request received.");  response.writeHead(200, &#123;"Content-Type": "text/plain"&#125;);  response.write("Hello YC");  response.end(); &#125; http.createServer(onRequest).listen(8888); console.log("Server has started.");&#125;exports.start = start;
+index.js123var server = require("./server");server.start();
+直接node index.js 运行，会调用server.js
+
         
         &nbsp;&nbsp;&nbsp;
         <span>

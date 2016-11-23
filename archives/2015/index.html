@@ -445,7 +445,8 @@ helloworld
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
           方法一: R语言包flowcore12345678# installsource("http://bioconductor.org/biocLite.R")biocLite("flowCore")# convertlibrary(flowCore)x &lt;- read.FCS(in.fname) #in.fname=xxx.lmdwrite.FCS(x,out.fname) #in.fname=xxx.fcs
-12345678910111213141516171819#批量lmd转化为fcslibrary(flowCore)library(tools)files &lt;- list.files("./")lmd2fcs ...
+12345678910111213141516171819#批量lmd转化为fcslibrary(flowCore)library(tools)files &lt;- list.files("./")lmd2fcs &lt;- function(fi)&#123;    x &lt;- read.FCS(fi)    write.FCS(x,paste0(file_path_sans_ext(fi),".fcs"))    &#125;lapply(files, lmd2fcs)lmd2csv &lt;- function(fi)&#123;    x &lt;- read.FCS(fi)    write.csv(summary(x),file=paste0(file_path_sans_ext(fi),".summary.csv"))    &#125;lapply(files, lmd2csv)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -858,7 +859,8 @@ norm(A)
 
 配置
 
-1234567891011121314151617181920212223242526272829303132333435363738394041424344&#123;   "magic":"nassh-prefs",
+1234567891011121314151617181920212223242526272829303132333435363738394041424344&#123;   "magic":"nassh-prefs",   "version":2,   "nassh":&#123;      "profile-ids":[         &#123;            "id":"c509",            "json":&#123;               "description":"yc@172.22.49.95:22",               "username":"yc",               "hostname":"172.22.49.95",               "port":22            &#125;         &#125;      ]   &#125;,   "hterm":&#123;      "default":&#123;         "background-color":"rgba(0, 43, 54, 1)",         "cursor-color":"rgba(238, 232, 213, 0.5)",         "color-palette-overrides":&#123;            "0":"#073642",            "1":"#dc322f",            "2":"#859900",            "3":"#b58900",            "4":"#268bd2",            "5":"#d33682",            "6":"#3aa198",            "7":"#eee8d5",            "8":"#002b36",            "9":"#cb4b16",            "10":"#586e75",            "11":"#657b83",            "12":"#839496",            "13":"#6c71c4",            "14":"#93a1a1",            "15":"#fdf6e3"         &#125;,         "font-family":"\"DejaVu Sans Mono\", 'Droid Sans Mono for Powerline', PowerlineSymbols",         "foreground-color":"rgba(238, 232, 213, 1)",         "user-css":"https://cdn.rawgit.com/JayXon/powerline-web-fonts/master/DroidSansMono.css"      &#125;   &#125;&#125;
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -949,7 +951,12 @@ Sammy.js: A small JavaScript framework developed to provide a basic structure fo
 Stapes.js: A tiny framework that aims to be easy to fit in an existing codebase, and because of its size it’s suitable for mobile development.
 Epitome: Epitome is a MVC* (MVP) framework for MooTools.
 soma.js: Tries help developers to write loosely-coupled applications to increase scalability and maintainability.
-PlastronJS: MVC framework for Closure Library and Closur...
+PlastronJS: MVC framework for Closure Library and Closure Compiler.
+rAppid.js: Lets you encapsulate complexity into components which can be easy used like HTML elements in your application.
+Serenade.js: Tries to follow the ideas of classical MVC than competing frameworks.
+Kendo UI: Combines jQuery-based widgets, an MVVM framework, themes, templates, and more.
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
