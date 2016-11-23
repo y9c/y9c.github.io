@@ -317,7 +317,8 @@
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          12for i in range(365):
+          12for i in range(365):    print "happy Year: 2016; Date: &#123;&#125;".format(i+1)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -375,7 +376,17 @@
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          rust运行环境的安装安装1
+          rust运行环境的安装安装1$ curl -sSf https://static.rust-lang.org/rustup.sh | sh
+helloworld
+方法一:rustc1234// save file as helloworld.rsfn main() &#123;    println!("hello helab")    &#125;
+
+
+12$ rustc helloworld.rs$ ./helloworld
+
+方法二:cargo123$ cargo new rust_first_project --bin$ cargo build$ cargo run
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -433,7 +444,8 @@
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          方法一: R语言包flowcore1234
+          方法一: R语言包flowcore12345678# installsource("http://bioconductor.org/biocLite.R")biocLite("flowCore")# convertlibrary(flowCore)x &lt;- read.FCS(in.fname) #in.fname=xxx.lmdwrite.FCS(x,out.fname) #in.fname=xxx.fcs
+12345678910111213141516171819#批量lmd转化为fcslibrary(flowCore)library(tools)files &lt;- list.files("./")lmd2fcs ...
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -510,7 +522,31 @@ Q: 删除到/插入到/移动到 行首怎么搞?
 (  ^ 0
 
 
-移动到行尾...
+移动到行尾
+)  $
+
+
+插入到行首
+I
+
+
+插入到行尾
+A
+
+
+删除到行首
+d(
+
+
+删除到行尾
+d) D
+
+
+
+
+最规范的还是行用() 段用{}
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -572,6 +608,11 @@ Q: 删除到/插入到/移动到 行首怎么搞?
 Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么办?
 
 12#开启粘贴模式:set paste
+
+粘贴(paste)
+
+12#关闭粘贴模式:set nopaste
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -690,7 +731,10 @@ Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么�
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          奇异矩阵（singular matrix）非奇异矩阵（nonsingular matrix）...
+          奇异矩阵（singular matrix）非奇异矩阵（nonsingular matrix）
+对于矩阵A，如果存在一个矩阵B，使得AB=BA=I，其中I为与A,B同维数的单位阵，就称A为可逆矩阵（或者称A可逆），并称B是A的逆矩阵，简称逆阵。（此时的逆称为凯利逆） 　　矩阵A可逆的充分必要条件是|A|≠0。 　　奇异矩阵阵或非方阵的矩阵不存在逆矩阵，但可以用函数pinv(A)求其伪逆矩阵。基本语法为X=pinv(A),X=pinv(A,tol),其中tol为误差：max(size(A))norm(A)eps。函数返回一个与A的转置矩阵A’ 同型的矩阵X，并且满足：AXA=A,XAX=X.此时，称矩阵X为矩阵A的伪逆，也称为广义逆矩阵。pinv(A)具有inv(A)的部分特性，但不与inv(A)完全等同。如果A为非奇异方阵，pinv(A)=inv(A)，但却会耗费大量的计算时间，相比较而言，inv(A)花费更少的时间。奇异矩阵是线性代数的概念，就是对应的行列式等于0的矩阵。奇异矩阵的判断方法：首先，看这个矩阵是不是方阵（即行数和列数相等的矩阵。若行数和列数不相等，那就谈不上奇异矩阵和非奇异矩阵）。 然后，再看此方阵的行列式|A|是否等于0，若等于0，称矩阵A为奇异矩阵；若不等于0，称矩阵A为非奇异矩阵。 同时，由|A|≠0可知矩阵A可逆，这样可以得出另外一个重要结论:可逆矩阵就是非奇异矩阵，非奇异矩阵也是可逆矩阵。
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -749,6 +793,7 @@ Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么�
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
           det(A)
+norm(A)
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -809,7 +854,11 @@ Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么�
           secure shell for chrome
 安装
 
-1...
+1https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo/related?utm_source=chrome-app-launcher-info-dialog
+
+配置
+
+1234567891011121314151617181920212223242526272829303132333435363738394041424344&#123;   "magic":"nassh-prefs",
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -880,7 +929,27 @@ extjs
 zepto
 
 
-jQuery jQueryUI : javascript框架和...
+jQuery jQueryUI : javascript框架和前端框架不是一个东西?
+
+##转
+
+infoQ
+
+
+Backbone.js: Provides models with key-value binding and custom events, collections, and connects it all to your existing API over a RESTful JSON interface.
+AngularJS: A toolset based on extending the HTML vocabulary for your application.
+Ember.js: Provides template written in the Handlebars templating language, views, controllers, models and a router.
+Knockout: Aims to simplify JavaScript UIs by applying the Model-View-View Model (MVVM) pattern.
+Agility.js: Aims to let developers write maintainable and reusable browser code without the verbose or infrastructural overhead found in other MVC libraries.
+CanJS: Focuses on striking a balance between size, ease of use, safety, speed and flexibility.
+Spine: A lightweight framework that strives to have the most friendly documentation for any JavaScript framework available.
+Maria: Based on the original MVC flavor as it was used in Smalltalk - aka “the Gang of Four MVC”.
+ExtJS: Amongst other things offers plugin-free charting, and modern UI widgets.
+Sammy.js: A small JavaScript framework developed to provide a basic structure for developing JavaScript applications.
+Stapes.js: A tiny framework that aims to be easy to fit in an existing codebase, and because of its size it’s suitable for mobile development.
+Epitome: Epitome is a MVC* (MVP) framework for MooTools.
+soma.js: Tries help developers to write loosely-coupled applications to increase scalability and maintainability.
+PlastronJS: MVC framework for Closure Library and Closur...
         
         &nbsp;&nbsp;&nbsp;
         <span>

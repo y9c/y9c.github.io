@@ -317,7 +317,7 @@
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          123456789...
+          1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859// mapping like vimummap('u', 'e');mapkey('p', "Open the clipboard's URL in the current tab", function(
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -381,6 +381,13 @@
 互相关(cross-correlation)
 
 
+数学解释:
+cross-correlation是两个时间序列移动不同的相位(lags)后依次求correlation
+convolution和cross-correlation类似, 不过得先将其中一个函数反向再进行计算.
+
+
+现实意义:…
+代码实现:matlab code12345678910%matlaba = [1 5 3 -4 7 -2]b = [2 3 5 2 -3 -9]%cross-correlation[corr_seq lags] = xcorr(a,b)plot(lags,corr_seq)%autocorrelationxcorr(a)%convolution...
 
         
         &nbsp;&nbsp;&nbsp;
@@ -450,6 +457,66 @@ trait
 value
 
 
+
+
+YAR010C
+D108_C
+0.566691
+
+
+YBL016W
+CCV12-1_C
+0.567051
+
+
+YBL016W
+CCV128_C
+0.587467
+
+
+YBR037C
+D109_C
+0.566084
+
+
+YBR040W
+C101_A1B
+0.578845
+
+
+YBR040W
+C101_C
+0.598443
+
+
+YBR040W
+C102_C
+0.587275
+
+
+YBR040W
+C103_A1B
+0.593403
+
+
+YBR040W
+C103_C
+0.597879
+
+
+YBR040W
+C11-1_A
+0.571026
+
+
+…
+…
+…
+
+
+
+代码在这里1234a &lt;-read.table("gene_trait_table",head=T)b&lt;-data.frame()fun&lt;-function(x)&#123;b[x["gene"],x["trait"]] &lt;&lt;- x["value"]&#125;apply(a,1, fun)
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -507,7 +574,7 @@ value
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          123456789...
+          1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -565,7 +632,17 @@ value
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          rust运行环境的安装安装1
+          rust运行环境的安装安装1$ curl -sSf https://static.rust-lang.org/rustup.sh | sh
+helloworld
+方法一:rustc1234// save file as helloworld.rsfn main() &#123;    println!("hello helab")    &#125;
+
+
+12$ rustc helloworld.rs$ ./helloworld
+
+方法二:cargo123$ cargo new rust_first_project --bin$ cargo build$ cargo run
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -642,7 +719,31 @@ Q: 删除到/插入到/移动到 行首怎么搞?
 (  ^ 0
 
 
-移动到行尾...
+移动到行尾
+)  $
+
+
+插入到行首
+I
+
+
+插入到行尾
+A
+
+
+删除到行首
+d(
+
+
+删除到行尾
+d) D
+
+
+
+
+最规范的还是行用() 段用{}
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -704,6 +805,11 @@ Q: 删除到/插入到/移动到 行首怎么搞?
 Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么办?
 
 12#开启粘贴模式:set paste
+
+粘贴(paste)
+
+12#关闭粘贴模式:set nopaste
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -825,7 +931,11 @@ Q: 粘贴段落的时候, 自动缩进和加注释符, 格式都乱了, 怎么�
           secure shell for chrome
 安装
 
-1...
+1https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo/related?utm_source=chrome-app-launcher-info-dialog
+
+配置
+
+1234567891011121314151617181920212223242526272829303132333435363738394041424344&#123;   "magic":"nassh-prefs",
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -896,7 +1006,27 @@ extjs
 zepto
 
 
-jQuery jQueryUI : javascript框架和...
+jQuery jQueryUI : javascript框架和前端框架不是一个东西?
+
+##转
+
+infoQ
+
+
+Backbone.js: Provides models with key-value binding and custom events, collections, and connects it all to your existing API over a RESTful JSON interface.
+AngularJS: A toolset based on extending the HTML vocabulary for your application.
+Ember.js: Provides template written in the Handlebars templating language, views, controllers, models and a router.
+Knockout: Aims to simplify JavaScript UIs by applying the Model-View-View Model (MVVM) pattern.
+Agility.js: Aims to let developers write maintainable and reusable browser code without the verbose or infrastructural overhead found in other MVC libraries.
+CanJS: Focuses on striking a balance between size, ease of use, safety, speed and flexibility.
+Spine: A lightweight framework that strives to have the most friendly documentation for any JavaScript framework available.
+Maria: Based on the original MVC flavor as it was used in Smalltalk - aka “the Gang of Four MVC”.
+ExtJS: Amongst other things offers plugin-free charting, and modern UI widgets.
+Sammy.js: A small JavaScript framework developed to provide a basic structure for developing JavaScript applications.
+Stapes.js: A tiny framework that aims to be easy to fit in an existing codebase, and because of its size it’s suitable for mobile development.
+Epitome: Epitome is a MVC* (MVP) framework for MooTools.
+soma.js: Tries help developers to write loosely-coupled applications to increase scalability and maintainability.
+PlastronJS: MVC framework for Closure Library and Closur...
         
         &nbsp;&nbsp;&nbsp;
         <span>

@@ -320,6 +320,22 @@
           Web enginesweb engines 拓展了html/css的功能，相当于“正则化”的模板
 html engines
 Web模板         —-生成html
+
+
+ejs
+Jade
+Handlebars
+Markdown （勉强也能算…）
+
+css engines (StyleSheet engines)
+CSS预处理语言   —-生成CSS
+
+
+LESS
+Sass(SCSS)
+Stylus
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -380,7 +396,8 @@ Web模板         —-生成html
           
 Sync in C
 
-1234567
+1234567891011121314#include &lt;time.h&gt;#include &lt;stdio.h&gt;#include &lt;unistd.h&gt;int main()&#123;    int i;    time_t the_time;    for(i = 1; i &lt;= 10; i++) &#123;        the_time = time((time_t *)0);        printf("The time is %ld\n", the_time);        sleep(2);    &#125;    exit(0);&#125;
+The time is 1396492137The time is 1396492139The time is 1396492141The time is 1396492143The ...
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -441,7 +458,11 @@ Sync in C
           用node的express插件创建应用
 创建项目环境
 
-123...
+1234$ mkdir myapp$ cd myapp$ npm install express --save$ vim app.js
+
+编写javascript脚本
+
+1234567891011121314//app.js 内容var express = require('express')var app = express()app.get('/', function (req, res) &#123;  res.send('Hello World!')  &#125;)var server = app.listen(3000, function () &#123;  var host = se...
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -504,7 +525,25 @@ Sync in C
 
 linux是一个操作系统, 和windows一样. 所以windows下能实现的, linux基本也能实现. 反过来也是一样的.
 不过,别问我linux怎么上QQ, 基本没有很好的方案.
-文件操作windows下做得最多的文件操作无非是”打...
+文件操作windows下做得最多的文件操作无非是”打开”,”复制”,”粘贴”,”重命名”.linux下的对应关系
+1"打开文件夹" == "ls"
+
+例子一: 打开当前文件夹
+
+
+1"复制+粘贴" == "cp"
+
+例子二: 复制hehe.txt文件,并粘贴为haha.txt
+
+
+1"重命名/移动" == "mv"
+
+例子三: 将haha.txt重命名为hello.txt
+
+
+虽然这些命令都是两个字符能搞定的, 但是后面得输入很长的一串文件名, 熟练使用windows的人一定会觉得效率太低.不过这里面涉及到linux的哲学: “一切都是对象”, 可以勉强的理解为所有的东西都是可以操作的, 这是linux和windows比较大的区别. 因为这里说的 “一切” 包括了复制粘贴命名本身. 看下面这里例子基本可以说明问题.
+
+例子四: 批量添加前缀1234#很多人在windows下有过这样的体验, 给一个文件夹中几十个文件一个个手动添加前缀或者是后缀, 十几分钟一直在重复右键,重命名,修改,确定...#在linux系统, 因为重命名本身是可以被操...
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -562,7 +601,8 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          网页端的javascript和服务端的nodejs的区别网页端
+          网页端的javascript和服务端的nodejs的区别网页端12345678&gt;  var a = 1;&lt;. 1&gt;  a&lt;. 1&gt;  window.a&lt;. 1&gt;  global.a&lt;. **Uncaught ReferenceError: global is not defined(…)**
+服务端12345678&gt;  var a = 1;&lt;. 
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -627,6 +667,13 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 命令行交互
 
 1$ node
+1&gt; console.log("Hello World");
+
+文件运行(无需编译)
+
+12$ echo 'console.log("Hello World")' &gt; helloworld.js$ node helloworld.js
+
+函数传递123456789function say(world)&#123; console.log(world);&#125;function execute(someFunction, value)&#123; someFunction(value)&#125;
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -698,7 +745,50 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 
 
 
-...
+按位与
+a &amp; b
+两个操作数对应位“与”操作
+15 &amp; 9 结果为 9 (1111 &amp; 1001 = 1001)
+
+
+按位或
+a#124 b
+两个操作数对应位“或”操作
+15 #124 9 为 15 (1111 #124 1001 = 1111)
+
+
+按位异或
+a ^ b
+如果两个操作数对应位只有一个 1 的话则在该位返回 1。
+15 ^ 9 为 6 (1111 ^ 1001 = 0110)
+
+
+求反
+~ a
+反转操作数的每一位。
+
+
+
+左移
+a &lt;&lt; b
+将 a 的二进制形式左移 b 位。右面的空位补零。
+9&lt;&lt;2 结果为 36，因为 1001 向左移两位变成 100100
+
+
+算术右移
+a &gt;&gt; b
+将 a 的二进制形式右移 b 位。忽略被移出的位。
+9&gt;&gt;2 结果为 2，因为 1001 右移两位变成 10
+
+
+逻辑右移
+a &gt;&gt;&gt; b
+将 a 的二进制形式右移 b 位。忽略被移出的位，左侧补入 0。
+19&gt;&gt;&gt;2 结果为 4，因为 10011 右移两位变成 100
+
+
+
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -762,7 +852,14 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 1wget -qO- https://deb.nodesource.com/setup_5.x | sudo bash -
 
 安装nodejs
-...
+
+1sudo apt-get install --yes nodejs
+
+1node -v
+V5.3.0
+1npm -v
+3.5.1
+
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -820,7 +917,11 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
     <!-- Post Excerpt -->
     <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
         
-          python12#this is a python code
+          python12#this is a python codeprint "hello world"
+perl12#this is a perl codeprint "hello world";
+bash12#this is a bash codeecho "hello world"
+R12#this is a R codeprint("hello world")
+nodejs12//this is a nodejs code
         
         &nbsp;&nbsp;&nbsp;
         <span>
@@ -882,6 +983,8 @@ linux是一个操作系统, 和windows一样. 所以windows下能实现的, linu
 hehe这是一段引用—- 阿尔伯特.爱因斯坦
 
 这是一条公式$$ x^2 + y *100 $$
+牛逼的薛定谔方程$\cos 2\theta = \cos^2 \theta - \sin^2 \theta =  2 \cos^2 \theta - 1$
+TypeError: path is required!
 
         
         &nbsp;&nbsp;&nbsp;
